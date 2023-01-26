@@ -1,110 +1,128 @@
 module.exports = [
     { 
         type: "flying",
-        strengths: [],
-        weaknesses: [],
+        strengths: ["bug", "fighting", "grass"],
+        weaknesses: ["electric", "ice", "rock"],
+        generation: "I",
         description: "The Flying type is one of the eighteen types"
     },
     { 
         type: "fighting",
-        strengths: [],
-        weaknesses: [],
+        strengths: ["rock", "dark", "normal", "ice", "steel"],
+        weaknesses: ["flying", "fairy", "psychic"],
+        generation: "I",
         description: "The Fighting type is one of the eighteen types"
     },
     { 
         type: "fairy",
-        strengths: [],
-        weaknesses: [],
-        description: "The Fairy type is one of the eighteen types"
+        strengths: ["fighting", "dragon", "dark"],
+        weaknesses: ["poison", "steel"],
+        generation: "VI",
+        description: "Introduced in Generation VI, Fairy type is one of the eighteen types."
     },
     { 
         type: "dragon",
-        strengths: [],
-        weaknesses: [],
+        strengths: ["dragon"],
+        weaknesses: ["fairy", "dragon", "ice"],
+        generation: "I",
         description: "The Dragon type is one of the eighteen types"
     },
     { 
         type: "dark",
-        strengths: [],
-        weaknesses: [],
-        description: "The Dark type is one of the eighteen types"
+        strengths: ["ghost", "psychic"],
+        weaknesses: ["bug", "fairy", "fighting"],
+        generation: "II",
+        description: "The Dark type is one of the eighteen types, it was introduced in Generation II"
     },
     { 
         type: "grass",
-        strengths: [],
-        weaknesses: [],
+        strengths: ["water", "rock", "ground"],
+        weaknesses: ["fire", "bug", "flying", "ice", "poison"],
+        generation: "I",
         description: "The Grass type is one of the eighteen types"
     },
     { 
         type: "poison",
-        strengths: [],
-        weaknesses: [],
+        strengths: ["grass", "fairy"],
+        weaknesses: ["ground", "psychic"],
+        generation: "I",
         description: "The Poison type is one of the eighteen types"
     },
     { 
         type: "water",
-        strengths: [],
-        weaknesses: [],
+        strengths: ["fire", "rock", "ground"],
+        weaknesses: ["electric", "grass"],
+        generation: "I",
         description: "The Water type is one of the eighteen types"
     },
     { 
         type: "psychic",
-        strengths: [],
-        weaknesses: [],
+        strengths: ["fighting", "poison"],
+        weaknesses: ["bug", "dark", "ghost"],
+        generation: "I",
         description: "The Psychic type is one of the eighteen types"
     },
     { 
         type: "steel",
-        strengths: [],
-        weaknesses: [],
-        description: "The Steel type is one of the eighteen types"
+        strengths: ["fairy", "ice", "rock"],
+        weaknesses: ["fire", "fighting", "ground"],
+        generation: "II",
+        description: "The Steel type is one of the eighteen types, It was introduced in Generation II"
     },
     { 
         type: "rock",
-        strengths: [],
-        weaknesses: [],
+        strengths: ["bug", "fire", "flying", "ice"],
+        weaknesses: ["water", "grass", "fighting", "ground", "steel"],
+        generation: "I",
         description: "The Rock type is one of the eighteen types"
     },
     { 
         type: "ground",
-        strengths: [],
-        weaknesses: [],
+        strengths: ["electric", "steel", "rock", "fire", "poison"],
+        weaknesses: ["water", "grass", "ice"],
+        generation: "I",
         description: "The Ground type is one of the eighteen types"
     },
     { 
         type: "ghost",
-        strengths: [],
-        weaknesses: [],
+        strengths: ["ghost", "psychic"],
+        weaknesses: ["ghost", "dark"],
+        generation: "I",
         description: "The Ghost type is one of the eighteen types"
     },
     { 
         type: "normal",
         strengths: [],
-        weaknesses: [],
+        weaknesses: ["fighting"],
+        generation: "I",
         description: "The Normal type is one of the eighteen types"
     },
     { 
         type: "bug",
-        strengths: [],
-        weaknesses: [],
+        strengths: ["dark", "grass", "psychic"],
+        weaknesses: ["fire", "flying", "rock"],
+        generation: "I",
         description: "The Bug type is one of the eighteen types"
     },
     { 
         type: "fire",
-        strengths: [],
-        weaknesses: [],
+        strengths: ["grass", "ice", "bug", "steel"],
+        weaknesses: ["water", "ground", "rock"],
+        generation: "I",
         description: "The Fire type is one of the eighteen types"
     },
     { 
         type: "ice",
-        strengths: [],
-        weaknesses: [],
+        strengths: ["flying", "dragon", "grass", "ground"],
+        weaknesses: ["fighting", "fire", "rock", "steel"],
+        generation: "I",
         description: "The Ice type is one of the eighteen types"
     },
     { 
         type: "electric",
-        strengths: [],
-        weaknesses: [],
+        strengths: ["flying", "water"],
+        weaknesses: ["ground"],
+        generation: "I",
         description: "The Electric type is one of the eighteen types"
     },
 ]
