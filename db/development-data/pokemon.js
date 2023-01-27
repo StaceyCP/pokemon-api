@@ -1,15 +1,7 @@
 module.exports = [
     {
         name: "bulbasaur",
-        types: [],
-        moves: [],
-        abilities: [],
-        spriteURL: "", 
-        genaration: "I",
-    },
-    {
-        name: "venusaur",
-        types: [],
+        types: ["grass", "poison"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -17,7 +9,15 @@ module.exports = [
     },
     {
         name: "ivysaur",
-        types: [],
+        types: ["grass", "poison"],
+        moves: [],
+        abilities: [],
+        spriteURL: "", 
+        genaration: "I",
+    },
+    {
+        name: "venusaur",
+        types: ["grass", "poison"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -25,7 +25,7 @@ module.exports = [
     },
     {
         name: "charmander",
-        types: [],
+        types: ["fire"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -33,7 +33,7 @@ module.exports = [
     },
     {
         name: "charmeleon",
-        types: [],
+        types: ["fire"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -41,7 +41,7 @@ module.exports = [
     },
     {
         name: "charizard",
-        types: [],
+        types: ["fire", "flying"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -49,7 +49,7 @@ module.exports = [
     },
     {
         name: "squirtle",
-        types: [],
+        types: ["water"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -57,7 +57,7 @@ module.exports = [
     },
     {
         name: "wartortle",
-        types: [],
+        types: ["water"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -65,7 +65,7 @@ module.exports = [
     },
     {
         name: "blastoise",
-        types: [],
+        types: ["water"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -73,7 +73,7 @@ module.exports = [
     },
     {
         name: "caterpie",
-        types: [],
+        types: ["bug"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -81,7 +81,7 @@ module.exports = [
     },
     {
         name: "metapod",
-        types: [],
+        types: ["bug"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -89,7 +89,7 @@ module.exports = [
     },
     {
         name: "butterfree",
-        types: [],
+        types: ["bug", "flying"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -97,7 +97,7 @@ module.exports = [
     },
     {
         name: "weedle",
-        types: [],
+        types: ["bug", "poison"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -105,7 +105,7 @@ module.exports = [
     },
     {
         name: "kakuna",
-        types: [],
+        types: ["bug", "poison"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -113,7 +113,7 @@ module.exports = [
     },
     {
         name: "beedrill",
-        types: [],
+        types: ["bug", "poison"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -121,7 +121,7 @@ module.exports = [
     },
     {
         name: "pidgey",
-        types: [],
+        types: ["normal", "flying"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -129,7 +129,7 @@ module.exports = [
     },
     {
         name: "pidgeotto",
-        types: [],
+        types: ["normal", "flying"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -137,7 +137,7 @@ module.exports = [
     },
     {
         name: "pidgeot",
-        types: [],
+        types: ["normal", "flying"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -145,7 +145,7 @@ module.exports = [
     },
     {
         name: "ratata",
-        types: [],
+        types: ["normal"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -153,7 +153,7 @@ module.exports = [
     },
     {
         name: "raticate",
-        types: [],
+        types: ["normal"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -161,7 +161,7 @@ module.exports = [
     },
     {
         name: "spearow",
-        types: [],
+        types: ["normal", "flying"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -169,7 +169,7 @@ module.exports = [
     },
     {
         name: "fearow",
-        types: [],
+        types: ["normal", "flying"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -177,7 +177,7 @@ module.exports = [
     },
     {
         name: "ekans",
-        types: [],
+        types: ["poison"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -185,7 +185,7 @@ module.exports = [
     },
     {
         name: "arbok",
-        types: [],
+        types: ["poison"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -193,7 +193,7 @@ module.exports = [
     },
     {
         name: "pikachu",
-        types: [],
+        types: ["electric"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -201,7 +201,7 @@ module.exports = [
     },
     {
         name: "raichu",
-        types: [],
+        types: ["electric"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -209,7 +209,7 @@ module.exports = [
     },
     {
         name: "sandshrew",
-        types: [],
+        types: ["ground"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -217,7 +217,7 @@ module.exports = [
     },
     {
         name: "sandslash",
-        types: [],
+        types: ["ground"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -225,7 +225,7 @@ module.exports = [
     },
     {
         name: "nidoran-f",
-        types: [],
+        types: ["poison"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -233,7 +233,7 @@ module.exports = [
     },
     {
         name: "nidorina",
-        types: [],
+        types: ["poison"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -241,7 +241,7 @@ module.exports = [
     },
     {
         name: "nidoqueen",
-        types: [],
+        types: ["poison", "ground"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -249,7 +249,7 @@ module.exports = [
     },
     {
         name: "nidoran-m",
-        types: [],
+        types: ["poison"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -257,7 +257,7 @@ module.exports = [
     },
     {
         name: "nidorino",
-        types: [],
+        types: ["poison"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -265,7 +265,7 @@ module.exports = [
     },
     {
         name: "nidoking",
-        types: [],
+        types: ["poison", "ground"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -273,7 +273,7 @@ module.exports = [
     },
     {
         name: "clefairy",
-        types: [],
+        types: ["fairy"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -281,7 +281,7 @@ module.exports = [
     },
     {
         name: "clefable",
-        types: [],
+        types: ["fairy"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -289,7 +289,7 @@ module.exports = [
     },
     {
         name: "vulpix",
-        types: [],
+        types: ["fire"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -297,7 +297,7 @@ module.exports = [
     },
     {
         name: "ninetails",
-        types: [],
+        types: ["fire"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -305,7 +305,7 @@ module.exports = [
     },
     {
         name: "jigglypuff",
-        types: [],
+        types: ["normal", "fairy"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -313,7 +313,7 @@ module.exports = [
     },
     {
         name: "wigglytuff",
-        types: [],
+        types: ["normal", "fairy"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -321,7 +321,7 @@ module.exports = [
     },
     {
         name: "zubat",
-        types: [],
+        types: ["poison", "flying"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -329,7 +329,7 @@ module.exports = [
     },
     {
         name: "golbat",
-        types: [],
+        types: ["poison", "flying"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -337,7 +337,7 @@ module.exports = [
     },
     {
         name: "oddish",
-        types: [],
+        types: ["grass", "poison"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -345,7 +345,7 @@ module.exports = [
     },
     {
         name: "gloom",
-        types: [],
+        types: ["grass", "poison"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -353,7 +353,7 @@ module.exports = [
     },
     {
         name: "vileplume",
-        types: [],
+        types: ["grass", "poison"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -361,7 +361,7 @@ module.exports = [
     },
     {
         name: "paras",
-        types: [],
+        types: ["bug", "grass"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -369,7 +369,7 @@ module.exports = [
     },
     {
         name: "parasect",
-        types: [],
+        types: ["bug", "grass"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -377,7 +377,7 @@ module.exports = [
     },
     {
         name: "venonat",
-        types: [],
+        types: ["bug", "poison"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -385,7 +385,7 @@ module.exports = [
     },
     {
         name: "venomoth",
-        types: [],
+        types: ["bug", "poison"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -393,7 +393,7 @@ module.exports = [
     },
     {
         name: "diglet",
-        types: [],
+        types: ["ground"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -401,7 +401,7 @@ module.exports = [
     },
     {
         name: "dugtrio",
-        types: [],
+        types: ["ground"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -409,7 +409,7 @@ module.exports = [
     },
     {
         name: "meowth",
-        types: [],
+        types: ["normal"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -417,7 +417,7 @@ module.exports = [
     },
     {
         name: "persian",
-        types: [],
+        types: ["normal"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -425,7 +425,7 @@ module.exports = [
     },
     {
         name: "psyduck",
-        types: [],
+        types: ["water"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -433,7 +433,7 @@ module.exports = [
     },
     {
         name: "golduck",
-        types: [],
+        types: ["water"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -441,7 +441,7 @@ module.exports = [
     },
     {
         name: "mankey",
-        types: [],
+        types: ["fighting"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -449,7 +449,7 @@ module.exports = [
     },
     {
         name: "primeape",
-        types: [],
+        types: ["fighting"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -457,7 +457,7 @@ module.exports = [
     },
     {
         name: "growlithe",
-        types: [],
+        types: ["fire"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -465,7 +465,7 @@ module.exports = [
     },
     {
         name: "arcanine",
-        types: [],
+        types: ["fire"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -473,7 +473,7 @@ module.exports = [
     },
     {
         name: "poliwag",
-        types: [],
+        types: ["water"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -481,7 +481,7 @@ module.exports = [
     },
     {
         name: "poliwhirl",
-        types: [],
+        types: ["water"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -489,7 +489,7 @@ module.exports = [
     },
     {
         name: "poliwrath",
-        types: [],
+        types: ["water", "fighting"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -497,7 +497,7 @@ module.exports = [
     },
     {
         name: "abra",
-        types: [],
+        types: ["psychic"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -505,7 +505,7 @@ module.exports = [
     },
     {
         name: "kadabra",
-        types: [],
+        types: ["psychic"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -513,7 +513,7 @@ module.exports = [
     },
     {
         name: "alakazam",
-        types: [],
+        types: ["psychic"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -521,7 +521,7 @@ module.exports = [
     },
     {
         name: "machop",
-        types: [],
+        types: ["fighting"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -529,7 +529,7 @@ module.exports = [
     },
     {
         name: "machoke",
-        types: [],
+        types: ["fighting"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -537,7 +537,7 @@ module.exports = [
     },
     {
         name: "machamp",
-        types: [],
+        types: ["fighting"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -545,7 +545,7 @@ module.exports = [
     },
     {
         name: "bellsprout",
-        types: [],
+        types: ["grass", "poison"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -553,7 +553,7 @@ module.exports = [
     },
     {
         name: "weepinbell",
-        types: [],
+        types: ["grass", "poison"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -561,7 +561,7 @@ module.exports = [
     },
     {
         name: "victreebel",
-        types: [],
+        types: ["grass", "poison"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -569,7 +569,7 @@ module.exports = [
     },
     {
         name: "tentacool",
-        types: [],
+        types: ["water", "poison"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -577,7 +577,7 @@ module.exports = [
     },
     {
         name: "tentacruel",
-        types: [],
+        types: ["water", "poison"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -585,7 +585,7 @@ module.exports = [
     },
     {
         name: "geodude",
-        types: [],
+        types: ["rock", "ground"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -593,7 +593,7 @@ module.exports = [
     },
     {
         name: "graveler",
-        types: [],
+        types: ["rock", "ground"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -601,7 +601,7 @@ module.exports = [
     },
     {
         name: "golem",
-        types: [],
+        types: ["rock", "ground"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -609,7 +609,7 @@ module.exports = [
     },
     {
         name: "ponyta",
-        types: [],
+        types: ["fire"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -617,7 +617,7 @@ module.exports = [
     },
     {
         name: "rapidash",
-        types: [],
+        types: ["fire"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -625,7 +625,7 @@ module.exports = [
     },
     {
         name: "slowpoke",
-        types: [],
+        types: ["water", "psychic"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -633,7 +633,7 @@ module.exports = [
     },
     {
         name: "slowbro",
-        types: [],
+        types: ["water", "psychic"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -641,7 +641,7 @@ module.exports = [
     },
     {
         name: "magnemite",
-        types: [],
+        types: ["electric", "steel"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -649,7 +649,7 @@ module.exports = [
     },
     {
         name: "magneton",
-        types: [],
+        types: ["electric", "steel"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -657,7 +657,7 @@ module.exports = [
     },
     {
         name: "farfetch'd",
-        types: [],
+        types: ["normal", "flying"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -665,7 +665,7 @@ module.exports = [
     },
     {
         name: "doduo",
-        types: [],
+        types: ["normal", "flying"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -673,7 +673,7 @@ module.exports = [
     },
     {
         name: "dodrio",
-        types: [],
+        types: ["normal", "flying"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -681,7 +681,7 @@ module.exports = [
     },
     {
         name: "seel",
-        types: [],
+        types: ["water"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -689,7 +689,7 @@ module.exports = [
     },
     {
         name: "dewgong",
-        types: [],
+        types: ["water", "ice"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -697,7 +697,7 @@ module.exports = [
     },
     {
         name: "grimer",
-        types: [],
+        types: ["poison"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -705,7 +705,7 @@ module.exports = [
     },
     {
         name: "muk",
-        types: [],
+        types: ["poison"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -713,7 +713,7 @@ module.exports = [
     },
     {
         name: "shellder",
-        types: [],
+        types: ["water"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -721,7 +721,7 @@ module.exports = [
     },
     {
         name: "cloyster",
-        types: [],
+        types: ["water", "ice"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -729,7 +729,7 @@ module.exports = [
     },
     {
         name: "gastly",
-        types: [],
+        types: ["ghost", "poison"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -737,7 +737,7 @@ module.exports = [
     },
     {
         name: "haunter",
-        types: [],
+        types: ["ghost", "poison"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -745,7 +745,7 @@ module.exports = [
     },
     {
         name: "gengar",
-        types: [],
+        types: ["ghost", "poison"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -753,7 +753,7 @@ module.exports = [
     },
     {
         name: "onix",
-        types: [],
+        types: ["rock", "ground"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -761,7 +761,7 @@ module.exports = [
     },
     {
         name: "drowzee",
-        types: [],
+        types: ["psychic"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -769,7 +769,7 @@ module.exports = [
     },
     {
         name: "hypno",
-        types: [],
+        types: ["psychic"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -777,7 +777,7 @@ module.exports = [
     },
     {
         name: "krabby",
-        types: [],
+        types: ["water"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -785,7 +785,7 @@ module.exports = [
     },
     {
         name: "kingler",
-        types: [],
+        types: ["water"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -793,7 +793,7 @@ module.exports = [
     },
     {
         name: "voltorb",
-        types: [],
+        types: ["electric"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -801,7 +801,7 @@ module.exports = [
     },
     {
         name: "electrode",
-        types: [],
+        types: ["electric"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -809,7 +809,7 @@ module.exports = [
     },
     {
         name: "exeggcute",
-        types: [],
+        types: ["grass", "psychic"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -817,7 +817,7 @@ module.exports = [
     },
     {
         name: "exeggutor",
-        types: [],
+        types: ["grass", "psychic"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -825,7 +825,7 @@ module.exports = [
     },
     {
         name: "cubone",
-        types: [],
+        types: ["ground"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -833,7 +833,7 @@ module.exports = [
     },
     {
         name: "marowak",
-        types: [],
+        types: ["ground"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -841,7 +841,7 @@ module.exports = [
     },
     {
         name: "hitmonlee",
-        types: [],
+        types: ["fighting"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -849,7 +849,7 @@ module.exports = [
     },
     {
         name: "hitmonchan",
-        types: [],
+        types: ["fighting"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -857,7 +857,7 @@ module.exports = [
     },
     {
         name: "lickitung",
-        types: [],
+        types: ["normal"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -865,7 +865,7 @@ module.exports = [
     },
     {
         name: "koffing",
-        types: [],
+        types: ["poison"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -873,7 +873,7 @@ module.exports = [
     },
     {
         name: "weezing",
-        types: [],
+        types: ["poison"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -881,7 +881,7 @@ module.exports = [
     },
     {
         name: "rhyhorn",
-        types: [],
+        types: ["ground", "rock"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -889,7 +889,7 @@ module.exports = [
     },
     {
         name: "rhydon",
-        types: [],
+        types: ["ground", "rock"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -897,7 +897,7 @@ module.exports = [
     },
     {
         name: "chansey",
-        types: [],
+        types: ["chansey"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -905,7 +905,7 @@ module.exports = [
     },
     {
         name: "tangela",
-        types: [],
+        types: ["grass"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -913,7 +913,7 @@ module.exports = [
     },
     {
         name: "kangaskhan",
-        types: [],
+        types: ["normal"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -921,7 +921,7 @@ module.exports = [
     },
     {
         name: "horsea",
-        types: [],
+        types: ["water"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -929,7 +929,7 @@ module.exports = [
     },
     {
         name: "seadra",
-        types: [],
+        types: ["water"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -937,7 +937,7 @@ module.exports = [
     },
     {
         name: "goldeen",
-        types: [],
+        types: ["water"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -945,7 +945,7 @@ module.exports = [
     },
     {
         name: "seaking",
-        types: [],
+        types: ["water"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -953,7 +953,7 @@ module.exports = [
     },
     {
         name: "staryu",
-        types: [],
+        types: ["water"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -961,7 +961,7 @@ module.exports = [
     },
     {
         name: "starmie",
-        types: [],
+        types: ["water", "psychic"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -969,7 +969,7 @@ module.exports = [
     },
     {
         name: "mr. mime",
-        types: [],
+        types: ["psychic", "fairy"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -977,7 +977,7 @@ module.exports = [
     },
     {
         name: "scyther",
-        types: [],
+        types: ["bug", "flying"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -985,7 +985,7 @@ module.exports = [
     },
     {
         name: "jynx",
-        types: [],
+        types: ["ice", "psychic"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -993,7 +993,7 @@ module.exports = [
     },
     {
         name: "electabuzz",
-        types: [],
+        types: ["electric"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -1001,7 +1001,7 @@ module.exports = [
     },
     {
         name: "magmar",
-        types: [],
+        types: ["fire"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -1009,7 +1009,7 @@ module.exports = [
     },
     {
         name: "pinsir",
-        types: [],
+        types: ["bug"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -1017,7 +1017,7 @@ module.exports = [
     },
     {
         name: "tauros",
-        types: [],
+        types: ["normal"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -1025,7 +1025,7 @@ module.exports = [
     },
     {
         name: "magikarp",
-        types: [],
+        types: ["water"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -1033,7 +1033,7 @@ module.exports = [
     },
     {
         name: "gyarados",
-        types: [],
+        types: ["water", "flying"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -1041,7 +1041,7 @@ module.exports = [
     },
     {
         name: "lapras",
-        types: [],
+        types: ["water", "ice"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -1049,7 +1049,7 @@ module.exports = [
     },
     {
         name: "ditto",
-        types: [],
+        types: ["normal"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -1057,7 +1057,7 @@ module.exports = [
     },
     {
         name: "eevee",
-        types: [],
+        types: ["normal"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -1065,7 +1065,7 @@ module.exports = [
     },
     {
         name: "vaporeon",
-        types: [],
+        types: ["water"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -1073,7 +1073,7 @@ module.exports = [
     },
     {
         name: "jolteon",
-        types: [],
+        types: ["electric"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -1081,7 +1081,7 @@ module.exports = [
     },
     {
         name: "flareon",
-        types: [],
+        types: ["fire"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -1089,7 +1089,7 @@ module.exports = [
     },
     {
         name: "porygon",
-        types: [],
+        types: ["rock"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -1097,7 +1097,7 @@ module.exports = [
     },
     {
         name: "omanyte",
-        types: [],
+        types: ["rock", "water"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -1105,7 +1105,7 @@ module.exports = [
     },
     {
         name: "omastar",
-        types: [],
+        types: ["rock", "water"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -1113,7 +1113,7 @@ module.exports = [
     },
     {
         name: "kabuto",
-        types: [],
+        types: ["rock", "water"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -1121,7 +1121,7 @@ module.exports = [
     },
     {
         name: "kabutops",
-        types: [],
+        types: ["rock", "water"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -1129,7 +1129,7 @@ module.exports = [
     },
     {
         name: "aerodactyl",
-        types: [],
+        types: ["rock", "flying"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -1137,7 +1137,7 @@ module.exports = [
     },
     {
         name: "snorlax",
-        types: [],
+        types: ["normal"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -1145,7 +1145,7 @@ module.exports = [
     },
     {
         name: "articuno",
-        types: [],
+        types: ["ice", "flying"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -1153,7 +1153,7 @@ module.exports = [
     },
     {
         name: "zapdos",
-        types: [],
+        types: ["electric", "flying"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -1161,7 +1161,7 @@ module.exports = [
     },
     {
         name: "moltres",
-        types: [],
+        types: ["fire", "flying"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -1169,7 +1169,7 @@ module.exports = [
     },
     {
         name: "dratini",
-        types: [],
+        types: ["dragon"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -1177,7 +1177,7 @@ module.exports = [
     },
     {
         name: "dragonair",
-        types: [],
+        types: ["dragon"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -1185,7 +1185,7 @@ module.exports = [
     },
     {
         name: "dragonite",
-        types: [],
+        types: ["dragon", "flying"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -1193,7 +1193,7 @@ module.exports = [
     },
     {
         name: "mewtwo",
-        types: [],
+        types: ["psychic"],
         moves: [],
         abilities: [],
         spriteURL: "", 
@@ -1201,7 +1201,7 @@ module.exports = [
     },
     {
         name: "mew",
-        types: [],
+        types: ["psychic"],
         moves: [],
         abilities: [],
         spriteURL: "", 
