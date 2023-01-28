@@ -81,7 +81,7 @@ module.exports = [
         name: "compound eyes",
         description: "The Pokémon's compound eyes boost its accuracy.",
         generation: "III",
-        pokemon: []
+        pokemon: ["butterfree"]
     },
     {
         name: "insomnia",
@@ -111,7 +111,7 @@ module.exports = [
         name: "shield dust",
         description: "Protective dust shields the Pokémon from the additional effects of moves.",
         generation: "III",
-        pokemon: []
+        pokemon: ["caterpie", "weedle"]
     },
     {
         name: "own tempo",
@@ -201,7 +201,7 @@ module.exports = [
         name: "chlorophyll",
         description: "Boosts the Pokémon's Speed stat in harsh sunlight.",
         generation: "III",
-        pokemon: []
+        pokemon: ["bulbasaur", "ivysaur", "venusaur"]
     },
     {
         name: "illuminate",
@@ -261,7 +261,7 @@ module.exports = [
         name: "rain dish",
         description: "The Pokémon gradually regains HP in rain.",
         generation: "III",
-        pokemon: []
+        pokemon: ["squirtle", "wartortle", "blastoise"]
     },
     {
         name: "sand stream",
@@ -297,7 +297,7 @@ module.exports = [
         name: "run away",
         description: "Enables a sure getaway from wild Pokémon.",
         generation: "III",
-        pokemon: []
+        pokemon: ["caterpie", "weedle"]
     },
     {
         name: "keen eye",
@@ -363,7 +363,7 @@ module.exports = [
         name: "shed skin",
         description: "The Pokémon may cure its own status conditions by shedding its skin.",
         generation: "III",
-        pokemon: []
+        pokemon: ["metapod", "kakuna"]
     },
     {
         name: "guts",
@@ -405,7 +405,7 @@ module.exports = [
         name: "swarm",
         description: "Powers up Bug-type moves when the Pokémon's HP is low.",
         generation: "III",
-        pokemon: []
+        pokemon: ["beedrill"]
     },
     {
         name: "rock head",
@@ -456,735 +456,909 @@ module.exports = [
         pokemon: []
     },
     {
-        name: "",
+        name: "tangled feet",
         description: "",
         generation: "IV",
         pokemon: []
     },
     {
-        name: "",
+        name: "motor drive",
         description: "",
         generation: "IV",
         pokemon: []
     },
     {
-        name: "",
+        name: "rivalry",
         description: "",
         generation: "IV",
         pokemon: []
     },
     {
-        name: "",
+        name: "steadfast",
         description: "",
         generation: "IV",
         pokemon: []
     },
     {
-        name: "",
+        name: "snow cloak",
         description: "",
         generation: "IV",
         pokemon: []
     },
     {
-        name: "",
+        name: "gluttony",
         description: "",
         generation: "IV",
         pokemon: []
     },
     {
-        name: "",
+        name: "anger point",
         description: "",
         generation: "IV",
         pokemon: []
     },
     {
-        name: "",
+        name: "unburden",
         description: "",
         generation: "IV",
         pokemon: []
     },
     {
-        name: "",
+        name: "heatproof",
         description: "",
         generation: "IV",
         pokemon: []
     },
     {
-        name: "",
+        name: "simple",
         description: "",
         generation: "IV",
         pokemon: []
     },
     {
-        name: "",
+        name: "dry skin",
         description: "",
         generation: "IV",
         pokemon: []
     },
     {
-        name: "",
+        name: "download",
         description: "",
         generation: "IV",
         pokemon: []
     },
     {
-        name: "",
+        name: "iron fist",
         description: "",
         generation: "IV",
         pokemon: []
     },
     {
-        name: "",
+        name: "poison heal",
         description: "",
         generation: "IV",
         pokemon: []
     },
     {
-        name: "",
+        name: "adaptability",
         description: "",
         generation: "IV",
         pokemon: []
     },
     {
-        name: "",
+        name: "skill link",
         description: "",
         generation: "IV",
         pokemon: []
     },
     {
-        name: "",
+        name: "hydration",
         description: "",
         generation: "IV",
         pokemon: []
     },
     {
-        name: "",
+        name: "solar power",
         description: "",
         generation: "IV",
-        pokemon: []
+        pokemon: ["charmander", "charmeleon", "charizard"]
     },
     {
-        name: "",
+        name: "quick feet",
         description: "",
         generation: "IV",
         pokemon: []
     },
     {
-        name: "",
+        name: "normalise",
         description: "",
         generation: "IV",
         pokemon: []
     },
     {
-        name: "",
+        name: "sniper",
         description: "",
         generation: "IV",
-        pokemon: []
+        pokemon: ["beedrill"]
     },
     {
-        name: "",
+        name: "magic guard",
         description: "",
         generation: "IV",
         pokemon: []
     },
     {
-        name: "",
+        name: "no guard",
         description: "",
         generation: "IV",
         pokemon: []
     },
     {
-        name: "",
+        name: "stall",
         description: "",
         generation: "IV",
         pokemon: []
     },
     {
-        name: "",
+        name: "technician",
         description: "",
         generation: "IV",
         pokemon: []
     },
     {
-        name: "",
+        name: "leaf guard",
         description: "",
         generation: "IV",
         pokemon: []
     },
     {
-        name: "",
+        name: "klutz",
         description: "",
         generation: "IV",
         pokemon: []
     },
     {
-        name: "",
+        name: "mold breaker",
         description: "",
         generation: "IV",
         pokemon: []
     },
     {
-        name: "",
+        name: "super luck",
         description: "",
         generation: "IV",
         pokemon: []
     },
     {
-        name: "",
+        name: "aftermath",
         description: "",
         generation: "IV",
         pokemon: []
     },
     {
-        name: "",
+        name: "anticipation",
         description: "",
         generation: "IV",
         pokemon: []
     },
     {
-        name: "",
+        name: "forewarn",
         description: "",
         generation: "IV",
         pokemon: []
     },
     {
-        name: "",
+        name: "unaware",
         description: "",
         generation: "IV",
         pokemon: []
     },
     {
-        name: "",
+        name: "tinted lens",
         description: "",
         generation: "IV",
-        pokemon: []
+        pokemon: ["butterfree"]
     },
     {
-        name: "",
+        name: "filter",
         description: "",
         generation: "IV",
         pokemon: []
     },
     {
-        name: "",
+        name: "slow start",
         description: "",
         generation: "IV",
         pokemon: []
     },
     {
-        name: "",
+        name: "scrappy",
         description: "",
         generation: "IV",
         pokemon: []
     },
     {
-        name: "",
+        name: "storm drain",
         description: "",
         generation: "IV",
         pokemon: []
     },
     {
-        name: "",
+        name: "ice body",
         description: "",
         generation: "IV",
         pokemon: []
     },
     {
-        name: "",
+        name: "solid rock",
         description: "",
         generation: "IV",
         pokemon: []
     },
     {
-        name: "",
+        name: "snow warning",
         description: "",
         generation: "IV",
         pokemon: []
     },
     {
-        name: "",
+        name: "honey gather",
         description: "",
         generation: "IV",
         pokemon: []
     },
     {
-        name: "",
+        name: "frisk",
         description: "",
         generation: "IV",
         pokemon: []
     },
     {
-        name: "",
+        name: "reckless",
         description: "",
         generation: "IV",
         pokemon: []
     },
     {
-        name: "",
+        name: "multitype",
         description: "",
         generation: "IV",
         pokemon: []
     },
     {
-        name: "",
+        name: "flower gift",
         description: "",
         generation: "IV",
         pokemon: []
     },
     {
-        name: "",
+        name: "bad dreams",
         description: "",
         generation: "IV",
         pokemon: []
     },
     {
-        name: "",
+        name: "pickpocket",
         description: "",
-        generation: "IV",
+        generation: "V",
         pokemon: []
     },
     {
-        name: "",
+        name: "sheer force",
         description: "",
-        generation: "IV",
+        generation: "V",
         pokemon: []
     },
     {
-        name: "",
+        name: "contrary",
         description: "",
-        generation: "IV",
+        generation: "V",
         pokemon: []
     },
     {
-        name: "",
+        name: "unnerve",
         description: "",
-        generation: "IV",
+        generation: "V",
         pokemon: []
     },
     {
-        name: "",
+        name: "defiant",
         description: "",
-        generation: "IV",
+        generation: "V",
         pokemon: []
     },
     {
-        name: "",
+        name: "defeatist",
         description: "",
-        generation: "IV",
+        generation: "V",
         pokemon: []
     },
     {
-        name: "",
+        name: "cursed body",
         description: "",
-        generation: "IV",
+        generation: "V",
         pokemon: []
     },
     {
-        name: "",
+        name: "healer",
         description: "",
-        generation: "IV",
+        generation: "V",
         pokemon: []
     },
     {
-        name: "",
+        name: "friend guard",
         description: "",
-        generation: "IV",
+        generation: "V",
         pokemon: []
     },
     {
-        name: "",
+        name: "weak armor",
         description: "",
-        generation: "IV",
+        generation: "V",
         pokemon: []
     },
     {
-        name: "",
+        name: "heavy metal",
         description: "",
-        generation: "IV",
+        generation: "V",
         pokemon: []
     },
     {
-        name: "",
+        name: "light metal",
         description: "",
-        generation: "IV",
+        generation: "V",
         pokemon: []
     },
     {
-        name: "",
+        name: "multiscale",
         description: "",
-        generation: "IV",
+        generation: "V",
         pokemon: []
     },
     {
-        name: "",
+        name: "toxic boost",
         description: "",
-        generation: "IV",
+        generation: "V",
         pokemon: []
     },
     {
-        name: "",
+        name: "flare boost",
         description: "",
-        generation: "IV",
+        generation: "V",
         pokemon: []
     },
     {
-        name: "",
+        name: "harvest",
         description: "",
-        generation: "IV",
+        generation: "V",
         pokemon: []
     },
     {
-        name: "",
+        name: "telepathy",
         description: "",
-        generation: "IV",
+        generation: "V",
         pokemon: []
     },
     {
-        name: "",
+        name: "moody",
         description: "",
-        generation: "IV",
+        generation: "V",
         pokemon: []
     },
     {
-        name: "",
+        name: "overcoat",
         description: "",
-        generation: "IV",
+        generation: "V",
         pokemon: []
     },
     {
-        name: "",
+        name: "poisont touch",
         description: "",
-        generation: "IV",
+        generation: "V",
         pokemon: []
     },
     {
-        name: "",
+        name: "regenerator",
         description: "",
-        generation: "IV",
+        generation: "V",
         pokemon: []
     },
     {
-        name: "",
+        name: "big pecks",
         description: "",
-        generation: "IV",
+        generation: "V",
         pokemon: []
     },
     {
-        name: "",
+        name: "sand rush",
         description: "",
-        generation: "IV",
+        generation: "V",
         pokemon: []
     },
     {
-        name: "",
+        name: "wonderskin",
         description: "",
-        generation: "IV",
+        generation: "V",
         pokemon: []
     },
     {
-        name: "",
+        name: "analytic",
         description: "",
-        generation: "IV",
+        generation: "V",
         pokemon: []
     },
     {
-        name: "",
+        name: "illusion",
         description: "",
-        generation: "IV",
+        generation: "V",
         pokemon: []
     },
     {
-        name: "",
+        name: "imposter",
         description: "",
-        generation: "IV",
+        generation: "V",
         pokemon: []
     },
     {
-        name: "",
+        name: "infiltrator",
         description: "",
-        generation: "IV",
+        generation: "V",
         pokemon: []
     },
     {
-        name: "",
+        name: "mummy",
         description: "",
-        generation: "IV",
+        generation: "V",
         pokemon: []
     },
     {
-        name: "",
+        name: "moxie",
         description: "",
-        generation: "IV",
+        generation: "V",
         pokemon: []
     },
     {
-        name: "",
+        name: "justified",
         description: "",
-        generation: "IV",
+        generation: "V",
         pokemon: []
     },
     {
-        name: "",
+        name: "rattled",
         description: "",
-        generation: "IV",
+        generation: "V",
         pokemon: []
     },
     {
-        name: "",
+        name: "magic bounce",
         description: "",
-        generation: "IV",
+        generation: "V",
         pokemon: []
     },
     {
-        name: "",
+        name: "sap sipper",
         description: "",
-        generation: "IV",
+        generation: "V",
         pokemon: []
     },
     {
-        name: "",
+        name: "prankster",
         description: "",
-        generation: "IV",
+        generation: "V",
         pokemon: []
     },
     {
-        name: "",
+        name: "sand force",
         description: "",
-        generation: "IV",
+        generation: "V",
         pokemon: []
     },
     {
-        name: "",
+        name: "iron barbs",
         description: "",
-        generation: "IV",
+        generation: "V",
         pokemon: []
     },
     {
-        name: "",
+        name: "zen mode",
         description: "",
-        generation: "IV",
+        generation: "V",
         pokemon: []
     },
     {
-        name: "",
+        name: "victory star",
         description: "",
-        generation: "IV",
+        generation: "V",
         pokemon: []
     },
     {
-        name: "",
+        name: "turboblaze",
         description: "",
-        generation: "IV",
+        generation: "V",
         pokemon: []
     },
     {
-        name: "",
+        name: "teravolt",
         description: "",
-        generation: "IV",
+        generation: "V",
         pokemon: []
     },
     {
-        name: "",
+        name: "aroma veil",
         description: "",
-        generation: "IV",
+        generation: "VI",
         pokemon: []
     },
     {
-        name: "",
+        name: "flower veil",
         description: "",
-        generation: "IV",
+        generation: "VI",
         pokemon: []
     },
     {
-        name: "",
+        name: "cheek pouch",
         description: "",
-        generation: "IV",
+        generation: "VI",
         pokemon: []
     },
     {
-        name: "",
+        name: "protean",
         description: "",
-        generation: "IV",
+        generation: "VI",
         pokemon: []
     },
     {
-        name: "",
+        name: "fur coat",
         description: "",
-        generation: "IV",
+        generation: "VI",
         pokemon: []
     },
     {
-        name: "",
+        name: "magician",
         description: "",
-        generation: "IV",
+        generation: "VI",
         pokemon: []
     },
     {
-        name: "",
+        name: "bullet proof",
         description: "",
-        generation: "IV",
+        generation: "VI",
         pokemon: []
     },
     {
-        name: "",
+        name: "competetive",
         description: "",
-        generation: "IV",
+        generation: "VI",
         pokemon: []
     },
     {
-        name: "",
+        name: "strong jaw",
         description: "",
-        generation: "IV",
+        generation: "VI",
         pokemon: []
     },
     {
-        name: "",
+        name: "refrigerate",
         description: "",
-        generation: "IV",
+        generation: "VI",
         pokemon: []
     },
     {
-        name: "",
+        name: "sweet veil",
         description: "",
-        generation: "IV",
+        generation: "VI",
         pokemon: []
     },
     {
-        name: "",
+        name: "stance change",
         description: "",
-        generation: "IV",
+        generation: "VI",
         pokemon: []
     },
     {
-        name: "",
+        name: "gale wings",
         description: "",
-        generation: "IV",
+        generation: "VI",
         pokemon: []
     },
     {
-        name: "",
+        name: "mega launcher",
         description: "",
-        generation: "IV",
+        generation: "VI",
         pokemon: []
     },
     {
-        name: "",
+        name: "grass pelt",
         description: "",
-        generation: "IV",
+        generation: "VI",
         pokemon: []
     },
     {
-        name: "",
+        name: "symbiosis",
         description: "",
-        generation: "IV",
+        generation: "VI",
         pokemon: []
     },
     {
-        name: "",
+        name: "tough claws",
         description: "",
-        generation: "IV",
+        generation: "VI",
         pokemon: []
     },
     {
-        name: "",
+        name: "pixilate",
         description: "",
-        generation: "IV",
+        generation: "VI",
+        pokemon: []
+    },
+    {
+        name: "gooey",
+        description: "",
+        generation: "VI",
+        pokemon: []
+    },
+    {
+        name: "aerialite",
+        description: "",
+        generation: "VI",
+        pokemon: []
+    },
+    {
+        name: "parental bond",
+        description: "",
+        generation: "VI",
+        pokemon: []
+    },
+    {
+        name: "dark aura",
+        description: "",
+        generation: "VI",
+        pokemon: []
+    },
+    {
+        name: "fairy aura",
+        description: "",
+        generation: "VI",
+        pokemon: []
+    },
+    {
+        name: "aura break",
+        description: "",
+        generation: "VI",
+        pokemon: []
+    },
+    {
+        name: "primordial sea",
+        description: "",
+        generation: "VI",
+        pokemon: []
+    },
+    {
+        name: "desolate land",
+        description: "",
+        generation: "VI",
+        pokemon: []
+    },
+    {
+        name: "delta stream",
+        description: "",
+        generation: "VI",
+        pokemon: []
+    },
+    {
+        name: "stamina",
+        description: "",
+        generation: "VII",
+        pokemon: []
+    },
+    {
+        name: "wimp out",
+        description: "",
+        generation: "VII",
+        pokemon: []
+    },
+    {
+        name: "emergency exit",
+        description: "",
+        generation: "VII",
+        pokemon: []
+    },
+    {
+        name: "water compaction",
+        description: "",
+        generation: "VII",
+        pokemon: []
+    },
+    {
+        name: "merciless",
+        description: "",
+        generation: "VII",
+        pokemon: []
+    },
+    {
+        name: "shields down",
+        description: "",
+        generation: "VII",
+        pokemon: []
+    },
+    {
+        name: "stakeout",
+        description: "",
+        generation: "VII",
+        pokemon: []
+    },
+    {
+        name: "water bubble",
+        description: "",
+        generation: "VII",
+        pokemon: []
+    },
+    {
+        name: "steelworker",
+        description: "",
+        generation: "VII",
+        pokemon: []
+    },
+    {
+        name: "berserk",
+        description: "",
+        generation: "VII",
+        pokemon: []
+    },
+    {
+        name: "slush rush",
+        description: "",
+        generation: "VII",
+        pokemon: []
+    },
+    {
+        name: "long reach",
+        description: "",
+        generation: "VII",
+        pokemon: []
+    },
+    {
+        name: "liquid voice",
+        description: "",
+        generation: "VII",
+        pokemon: []
+    },
+    {
+        name: "triage",
+        description: "",
+        generation: "VII",
+        pokemon: []
+    },
+    {
+        name: "galvanise",
+        description: "",
+        generation: "VII",
+        pokemon: []
+    },
+    {
+        name: "surge surfer",
+        description: "",
+        generation: "VII",
+        pokemon: []
+    },
+    {
+        name: "schooling",
+        description: "",
+        generation: "VII",
+        pokemon: []
+    },
+    {
+        name: "disguise",
+        description: "",
+        generation: "VII",
+        pokemon: []
+    },
+    {
+        name: "battle bond",
+        description: "",
+        generation: "VII",
+        pokemon: []
+    },
+    {
+        name: "power construct",
+        description: "",
+        generation: "VII",
         pokemon: []
     },
     {
         name: "",
         description: "",
-        generation: "IV",
+        generation: "VII",
         pokemon: []
     },
     {
         name: "",
         description: "",
-        generation: "IV",
+        generation: "VII",
         pokemon: []
     },
     {
         name: "",
         description: "",
-        generation: "IV",
+        generation: "VII",
         pokemon: []
     },
     {
         name: "",
         description: "",
-        generation: "IV",
+        generation: "VII",
         pokemon: []
     },
     {
         name: "",
         description: "",
-        generation: "IV",
+        generation: "VII",
         pokemon: []
     },
     {
         name: "",
         description: "",
-        generation: "IV",
+        generation: "VII",
         pokemon: []
     },
     {
         name: "",
         description: "",
-        generation: "IV",
+        generation: "VII",
         pokemon: []
     },
     {
         name: "",
         description: "",
-        generation: "IV",
+        generation: "VII",
         pokemon: []
     },
     {
         name: "",
         description: "",
-        generation: "IV",
+        generation: "VII",
         pokemon: []
     },
     {
         name: "",
         description: "",
-        generation: "IV",
+        generation: "VII",
         pokemon: []
     },
     {
         name: "",
         description: "",
-        generation: "IV",
+        generation: "VII",
         pokemon: []
     },
     {
         name: "",
         description: "",
-        generation: "IV",
+        generation: "VII",
         pokemon: []
     },
     {
         name: "",
         description: "",
-        generation: "IV",
+        generation: "VII",
         pokemon: []
     },
     {
         name: "",
         description: "",
-        generation: "IV",
+        generation: "VII",
         pokemon: []
     },
     {
         name: "",
         description: "",
-        generation: "IV",
+        generation: "VII",
         pokemon: []
     },
     {
         name: "",
         description: "",
-        generation: "IV",
+        generation: "VII",
         pokemon: []
     },
 ]
