@@ -45,13 +45,13 @@ module.exports = [
         name: "sand veil",
         description: "Boosts the Pokémon's evasiveness in a sandstorm.",
         generation: "III",
-        pokemon: []
+        pokemon: ["larvitar"]
     },
     {
         name: "static",
         description: "The Pokémon is charged with static electricity and may paralyze attackers that make direct contact with it.",
         generation: "III",
-        pokemon: []
+        pokemon: ["elekid"]
     },
     {
         name: "volt absorb",
@@ -177,7 +177,7 @@ module.exports = [
         name: "natural cure",
         description: "The Pokémon's status conditions are cured when it switches out.",
         generation: "III",
-        pokemon: []
+        pokemon: ["blissey", "celebi"]
     },
     {
         name: "lightning rod",
@@ -189,7 +189,7 @@ module.exports = [
         name: "serene grace",
         description: "Raises the likelihood of additional effects occurring when the Pokémon uses its moves.",
         generation: "III",
-        pokemon: []
+        pokemon: ["blissey"]
     },
     {
         name: "swift swim",
@@ -231,7 +231,7 @@ module.exports = [
         name: "inner focus",
         description: "The Pokémon's intense focus prevents it from flinching or being affected by Intimidate.",
         generation: "III",
-        pokemon: []
+        pokemon: ["raiku", "entei", "suicine"]
     },
     {
         name: "magma armor",
@@ -267,19 +267,19 @@ module.exports = [
         name: "sand stream",
         description: "The Pokémon summons a sandstorm when it enters a battle.",
         generation: "III",
-        pokemon: []
+        pokemon: ["tyranitar"]
     },
     {
         name: "pressure",
         description: "Puts other Pokémon under pressure, causing them to expend more PP to use their moves.",
         generation: "III",
-        pokemon: []
+        pokemon: ["raiku", "entei", "suicine", "lugia", "ho-oh"]
     },
     {
         name: "thick fat",
         description: "The Pokémon is protected by a layer of thick fat, which halves the damage taken from Fire- and Ice-type moves.",
         generation: "III",
-        pokemon: []
+        pokemon: ["miltank"]
     },
     {
         name: "early bird",
@@ -291,7 +291,7 @@ module.exports = [
         name: "flame body",
         description: "Contact with the Pokémon may burn the attacker.",
         generation: "III",
-        pokemon: []
+        pokemon: ["magby"]
     },
     {
         name: "run away",
@@ -363,13 +363,13 @@ module.exports = [
         name: "shed skin",
         description: "The Pokémon may cure its own status conditions by shedding its skin.",
         generation: "III",
-        pokemon: ["metapod", "kakuna"]
+        pokemon: ["metapod", "kakuna", "pupitar"]
     },
     {
         name: "guts",
         description: "It's so gutsy that having a status condition boosts the Pokémon's Attack stat.",
         generation: "III",
-        pokemon: []
+        pokemon: ["larvitar"]
     },
     {
         name: "marvel scale",
@@ -387,13 +387,13 @@ module.exports = [
         name: "overgrow",
         description: "Powers up Grass-type moves when the Pokémon's HP is low.",
         generation: "III",
-        pokemon: ["bulbasaur", "ivysaur", "venusaur"]
+        pokemon: ["bulbasaur", "ivysaur", "venusaur", "chikorita", "bayleaf", "meganium", "treecko", "grovyle", "sceptile"]
     },
     {
         name: "blaze",
         description: "Powers up Fire-type moves when the Pokémon's HP is low.",
         generation: "III",
-        pokemon: ["charmander", "charmeleon", "charizard", "torchic", "combusken", "blaziken"]
+        pokemon: ["charmander", "charmeleon", "charizard", "torchic", "combusken", "blaziken", "cyndaquil" , "quilava", "typhlosion"]
     },
     {
         name: "torrent",
@@ -429,7 +429,7 @@ module.exports = [
         name: "vital spirit",
         description: "The Pokémon is full of vitality, and that prevents it from falling asleep.",
         generation: "III",
-        pokemon: []
+        pokemon: ["elekid", "magby"]
     },
     {
         name: "white smoke",
@@ -675,7 +675,7 @@ module.exports = [
         name: "scrappy",
         description: "",
         generation: "IV",
-        pokemon: []
+        pokemon: ["miltank"]
     },
     {
         name: "storm drain",
@@ -759,7 +759,7 @@ module.exports = [
         name: "unnerve",
         description: "",
         generation: "V",
-        pokemon: []
+        pokemon: ["tyranitar"]
     },
     {
         name: "defiant",
@@ -783,7 +783,7 @@ module.exports = [
         name: "healer",
         description: "",
         generation: "V",
-        pokemon: []
+        pokemon: ["blissey"]
     },
     {
         name: "friend guard",
@@ -813,7 +813,7 @@ module.exports = [
         name: "multiscale",
         description: "",
         generation: "V",
-        pokemon: []
+        pokemon: ["lugia"]
     },
     {
         name: "toxic boost",
@@ -861,7 +861,7 @@ module.exports = [
         name: "regenerator",
         description: "",
         generation: "V",
-        pokemon: []
+        pokemon: ["ho-oh"]
     },
     {
         name: "big pecks",
@@ -939,7 +939,7 @@ module.exports = [
         name: "sap sipper",
         description: "",
         generation: "V",
-        pokemon: []
+        pokemon: ["miltank"]
     },
     {
         name: "prankster",
