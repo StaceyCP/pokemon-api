@@ -1266,99 +1266,525 @@ module.exports = [
         pokemon: []
     },
     {
-        name: "",
+        name: "corrosion",
         description: "",
         generation: "VII",
         pokemon: []
     },
     {
-        name: "",
+        name: "comatose",
         description: "",
         generation: "VII",
         pokemon: []
     },
     {
-        name: "",
+        name: "queenly majesty",
         description: "",
         generation: "VII",
         pokemon: []
     },
     {
-        name: "",
+        name: "innards out",
         description: "",
         generation: "VII",
         pokemon: []
     },
     {
-        name: "",
+        name: "dancer",
         description: "",
         generation: "VII",
         pokemon: []
     },
     {
-        name: "",
+        name: "battery",
         description: "",
         generation: "VII",
         pokemon: []
     },
     {
-        name: "",
+        name: "fluffy",
         description: "",
         generation: "VII",
         pokemon: []
     },
     {
-        name: "",
+        name: "dazzling",
         description: "",
         generation: "VII",
         pokemon: []
     },
     {
-        name: "",
+        name: "soul-heart",
         description: "",
         generation: "VII",
         pokemon: []
     },
     {
-        name: "",
+        name: "tangling hair",
         description: "",
         generation: "VII",
         pokemon: []
     },
     {
-        name: "",
+        name: "receiver",
         description: "",
         generation: "VII",
         pokemon: []
     },
     {
-        name: "",
+        name: "power of alchemy",
         description: "",
         generation: "VII",
         pokemon: []
     },
     {
-        name: "",
+        name: "beast boost",
         description: "",
         generation: "VII",
         pokemon: []
     },
     {
-        name: "",
+        name: "rks system",
         description: "",
         generation: "VII",
         pokemon: []
     },
     {
-        name: "",
+        name: "electric surge",
         description: "",
         generation: "VII",
         pokemon: []
     },
     {
-        name: "",
+        name: "psychic surge",
         description: "",
         generation: "VII",
+        pokemon: []
+    },
+    {
+        name: "misty surge",
+        description: "",
+        generation: "VII",
+        pokemon: []
+    },
+    {
+        name: "grassy surge",
+        description: "",
+        generation: "VII",
+        pokemon: []
+    },
+    {
+        name: "full metal body",
+        description: "",
+        generation: "VII",
+        pokemon: []
+    },
+    {
+        name: "shadow shield",
+        description: "",
+        generation: "VII",
+        pokemon: []
+    },
+    {
+        name: "prism armor",
+        description: "",
+        generation: "VII",
+        pokemon: []
+    },
+    {
+        name: "neuroforce",
+        description: "",
+        generation: "VII",
+        pokemon: []
+    },
+    {
+        name: "intrepid force",
+        description: "",
+        generation: "VIII",
+        pokemon: []
+    },
+    {
+        name: "dauntless shield",
+        description: "",
+        generation: "VIII",
+        pokemon: []
+    },
+    {
+        name: "libero",
+        description: "",
+        generation: "VIII",
+        pokemon: []
+    },
+    {
+        name: "ball fetch",
+        description: "",
+        generation: "VIII",
+        pokemon: []
+    },
+    {
+        name: "cotton down",
+        description: "",
+        generation: "VIII",
+        pokemon: []
+    },
+    {
+        name: "propeller tail",
+        description: "",
+        generation: "VIII",
+        pokemon: []
+    },
+    {
+        name: "mirror armor",
+        description: "",
+        generation: "VIII",
+        pokemon: []
+    },
+    {
+        name: "gulp missile",
+        description: "",
+        generation: "VIII",
+        pokemon: []
+    },
+    {
+        name: "stalwart",
+        description: "",
+        generation: "VIII",
+        pokemon: []
+    },
+    {
+        name: "steam engine",
+        description: "",
+        generation: "VIII",
+        pokemon: []
+    },
+    {
+        name: "punk rock",
+        description: "",
+        generation: "VIII",
+        pokemon: []
+    },
+    {
+        name: "sand spit",
+        description: "",
+        generation: "VIII",
+        pokemon: []
+    },
+    {
+        name: "ice scales",
+        description: "",
+        generation: "VIII",
+        pokemon: []
+    },
+    {
+        name: "ripen",
+        description: "",
+        generation: "VIII",
+        pokemon: []
+    },
+    {
+        name: "ice face",
+        description: "",
+        generation: "VIII",
+        pokemon: []
+    },
+    {
+        name: "power spot",
+        description: "",
+        generation: "VIII",
+        pokemon: []
+    },
+    {
+        name: "mimicry",
+        description: "",
+        generation: "VIII",
+        pokemon: []
+    },
+    {
+        name: "screen cleaner",
+        description: "",
+        generation: "VIII",
+        pokemon: []
+    },
+    {
+        name: "steely spirit",
+        description: "",
+        generation: "VIII",
+        pokemon: []
+    },
+    {
+        name: "perish body",
+        description: "",
+        generation: "VIII",
+        pokemon: []
+    },
+    {
+        name: "wandering spirit",
+        description: "",
+        generation: "VIII",
+        pokemon: []
+    },
+    {
+        name: "gorilla tactics",
+        description: "",
+        generation: "VIII",
+        pokemon: []
+    },
+    {
+        name: "neutralising gas",
+        description: "",
+        generation: "VIII",
+        pokemon: []
+    },
+    {
+        name: "pastel veil",
+        description: "",
+        generation: "VIII",
+        pokemon: []
+    },
+    {
+        name: "hunger switch",
+        description: "",
+        generation: "VIII",
+        pokemon: []
+    },
+    {
+        name: "quick draw",
+        description: "",
+        generation: "VIII",
+        pokemon: []
+    },
+    {
+        name: "unseen fist",
+        description: "",
+        generation: "VIII",
+        pokemon: []
+    },
+    {
+        name: "curious medicine",
+        description: "",
+        generation: "VIII",
+        pokemon: []
+    },
+    {
+        name: "transistor",
+        description: "",
+        generation: "VIII",
+        pokemon: []
+    },
+    {
+        name: "dragon's maw",
+        description: "",
+        generation: "VIII",
+        pokemon: []
+    },
+    {
+        name: "chilling neigh",
+        description: "",
+        generation: "VIII",
+        pokemon: []
+    },
+    {
+        name: "grim neigh",
+        description: "",
+        generation: "VIII",
+        pokemon: []
+    },
+    {
+        name: "as one glastrier",
+        description: "",
+        generation: "VIII",
+        pokemon: []
+    },
+    {
+        name: "as one spectrier",
+        description: "",
+        generation: "VIII",
+        pokemon: []
+    },
+    {
+        name: "lingering aroma",
+        description: "",
+        generation: "IX",
+        pokemon: []
+    },
+    {
+        name: "seed power",
+        description: "",
+        generation: "IX",
+        pokemon: []
+    },
+    {
+        name: "thermal exchange",
+        description: "",
+        generation: "IX",
+        pokemon: []
+    },
+    {
+        name: "anger shell",
+        description: "",
+        generation: "IX",
+        pokemon: []
+    },
+    {
+        name: "purifying salt",
+        description: "",
+        generation: "IX",
+        pokemon: []
+    },
+    {
+        name: "well-baked body",
+        description: "",
+        generation: "IX",
+        pokemon: []
+    },
+    {
+        name: "wind rider",
+        description: "",
+        generation: "IX",
+        pokemon: []
+    },
+    {
+        name: "guard dog",
+        description: "",
+        generation: "IX",
+        pokemon: []
+    },
+    {
+        name: "rocky payload",
+        description: "",
+        generation: "IX",
+        pokemon: []
+    },
+    {
+        name: "wind power",
+        description: "",
+        generation: "IX",
+        pokemon: []
+    },
+    {
+        name: "zero to hero",
+        description: "",
+        generation: "IX",
+        pokemon: []
+    },
+    {
+        name: "commander",
+        description: "",
+        generation: "IX",
+        pokemon: []
+    },
+    {
+        name: "electromorphosis",
+        description: "",
+        generation: "IX",
+        pokemon: []
+    },
+    {
+        name: "protosynthesis",
+        description: "",
+        generation: "IX",
+        pokemon: []
+    },
+    {
+        name: "quark drive",
+        description: "",
+        generation: "IX",
+        pokemon: []
+    },
+    {
+        name: "good as gold",
+        description: "",
+        generation: "IX",
+        pokemon: []
+    },
+    {
+        name: "vessel of ruin",
+        description: "",
+        generation: "IX",
+        pokemon: []
+    },
+    {
+        name: "sword of ruin",
+        description: "",
+        generation: "IX",
+        pokemon: []
+    },
+    {
+        name: "tablets of ruin",
+        description: "",
+        generation: "IX",
+        pokemon: []
+    },
+    {
+        name: "beads of ruin",
+        description: "",
+        generation: "IX",
+        pokemon: []
+    },
+    {
+        name: "orichalcum pulse",
+        description: "",
+        generation: "IX",
+        pokemon: []
+    },
+    {
+        name: "hadron engine",
+        description: "",
+        generation: "IX",
+        pokemon: []
+    },
+    {
+        name: "opportunist",
+        description: "",
+        generation: "IX",
+        pokemon: []
+    },
+    {
+        name: "cud chew",
+        description: "",
+        generation: "IX",
+        pokemon: []
+    },
+    {
+        name: "sharpness",
+        description: "",
+        generation: "IX",
+        pokemon: []
+    },
+    {
+        name: "supreme overlord",
+        description: "",
+        generation: "IX",
+        pokemon: []
+    },
+    {
+        name: "costar",
+        description: "",
+        generation: "IX",
+        pokemon: []
+    },
+    {
+        name: "toxic debris",
+        description: "",
+        generation: "IX",
+        pokemon: []
+    },
+    {
+        name: "armor tail",
+        description: "",
+        generation: "IX",
+        pokemon: []
+    },
+    {
+        name: "earth eater",
+        description: "",
+        generation: "IX",
+        pokemon: []
+    },
+    {
+        name: "mycelium night",
+        description: "",
+        generation: "IX",
         pokemon: []
     },
 ]
