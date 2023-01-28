@@ -27,13 +27,13 @@ module.exports = [
         name: "sturdy",
         description: "The Pokémon cannot be knocked out by a single hit as long as its HP is full. One-hit KO moves will also fail to knock it out.",
         generation: "III",
-        pokemon: []
+        pokemon: ["Geodude", "graveler", "golem", "magnemite", "magneton", "onix", "steelix", "magnezone", "bonsly", "sudowoodo", "pineco", "forretress", "shuckle", "skarmory", "donphan", "nosepass", "probopass", "aron", "lairon", "aggron", "relicanth", "regirock", "shieldon", "bastiodon", "roggenrola", "boldore", "gigalith", "sawk", "dwebble", "crustle", "tirtouga", "carracosta", "tyrunt", "carbink", "bergmite", "avalugg", "togedemaru", "cosmoem", "nacli", "naclstack", "garganacl"]
     },
     {
         name: "damp",
         description: "The Pokémon dampens its surroundings, preventing all Pokémon from using explosive moves such as Self-Destruct.",
         generation: "III",
-        pokemon: []
+        pokemon: ["paras", "parasect", "psyduck", "golduck", "poliwag", "poliwhirl", "poliwrath", "horsea", "seadra", "politoed", "kingdra", "wooper", "quagsire", "mudkip", "marshtomp", "swampert", "frillish", "jellicent", "tadbulb", "bellibolt"]
     },
     {
         name: "limber",
