@@ -3,25 +3,25 @@ module.exports = [
         name: "stench",
         description: "By releasing a stench when attacking, the Pokémon may cause the target to flinch.",
         generation: "III",
-        pokemon: []
+        pokemon: ["gloom", "grimer", "muk", "koffing", "weezing", "stunky", "skuntank", "trubbish", "garbodor"]
     },
     {
         name: "drizzle",
         description: "The Pokémon makes it rain when it enters a battle.",
         generation: "III",
-        pokemon: []
+        pokemon: ["politoed", "pelipper", "kyogre"]
     },
     {
         name: "speed boost",
         description: "The Pokémon's Speed stat is boosted every turn.",
         generation: "III",
-        pokemon: []
+        pokemon: ["yanma", "yanmega", "torchic", "combusken", "blaziken", "mega blaziken", "ninjask", "carvanha", "sharpedo", "venipede", "whirlipede", "scolipede", "flittle", "espathra"]
     },
     {
         name: "battle armor",
         description: "Hard armor protects the Pokémon from critical hits.",
         generation: "III",
-        pokemon: []
+        pokemon: ["cubone", "marowak",  "kabuto", "kabutops", "Perrserker", "anorith", "armaldo", "skorupi", "drapion", "type-null", "falinks"]
     },
     {
         name: "sturdy",
@@ -87,7 +87,7 @@ module.exports = [
         name: "insomnia",
         description: "	The Pokémon's insomnia prevents it from falling asleep.",
         generation: "III",
-        pokemon: []
+        pokemon: ["capsakid", "scovillian"]
     },
     {
         name: "color change",
@@ -201,7 +201,7 @@ module.exports = [
         name: "chlorophyll",
         description: "Boosts the Pokémon's Speed stat in harsh sunlight.",
         generation: "III",
-        pokemon: ["bulbasaur", "ivysaur", "venusaur"]
+        pokemon: ["bulbasaur", "ivysaur", "venusaur", "oddish", "gloom", "vileploom", "bellossom", "bellsprout", "weepinbell", "victreebel", "exeggcute", "exeggutor", "tangella", "tangrowth", "leafeon", "hoppip", "skiploom", "jumpluff", "sunkern", "sunflora", "seedot", "nuzleaf", "shiftry", "tropius", "cherubi", "sewaddle", "swadloon", "leavanny", "cottonee", "whimsicott", "petilil", "lilligant", "maractus", "deerling", "sawsbuck", "capsakid", "scovillian"]
     },
     {
         name: "illuminate",
@@ -393,7 +393,7 @@ module.exports = [
         name: "blaze",
         description: "Powers up Fire-type moves when the Pokémon's HP is low.",
         generation: "III",
-        pokemon: ["charmander", "charmeleon", "charizard"]
+        pokemon: ["charmander", "charmeleon", "charizard", "torchic", "combusken", "blaziken"]
     },
     {
         name: "torrent",
@@ -543,7 +543,7 @@ module.exports = [
         name: "adaptability",
         description: "",
         generation: "IV",
-        pokemon: []
+        pokemon: ["porygon-z"]
     },
     {
         name: "skill link",
@@ -615,7 +615,7 @@ module.exports = [
         name: "klutz",
         description: "",
         generation: "IV",
-        pokemon: []
+        pokemon: ["capsakid"]
     },
     {
         name: "mold breaker",
@@ -843,7 +843,7 @@ module.exports = [
         name: "moody",
         description: "",
         generation: "V",
-        pokemon: []
+        pokemon: ["scovillian"]
     },
     {
         name: "overcoat",
@@ -1131,13 +1131,13 @@ module.exports = [
         name: "primordial sea",
         description: "",
         generation: "VI",
-        pokemon: []
+        pokemon: ["primal kyogre"]
     },
     {
         name: "desolate land",
         description: "",
         generation: "VI",
-        pokemon: []
+        pokemon: ["primal groudon"]
     },
     {
         name: "delta stream",
@@ -1543,141 +1543,141 @@ module.exports = [
     },
     {
         name: "hunger switch",
-        description: "",
+        description: "The Pokémon changes its form, alternating between its Full Belly Mode and Hangry Mode after the end of every turn.",
         generation: "VIII",
-        pokemon: []
+        pokemon: ["morpeko"]
     },
     {
         name: "quick draw",
-        description: "",
+        description: "Enables the Pokémon to move first occasionally.",
         generation: "VIII",
         pokemon: []
     },
     {
         name: "unseen fist",
-        description: "",
+        description: "If the Pokémon uses moves that make direct contact, it can attack the target even if the target protects itself.",
         generation: "VIII",
-        pokemon: []
+        pokemon: ["urshifu"]
     },
     {
         name: "curious medicine",
-        description: "",
+        description: "When the Pokémon enters a battle, it scatters medicine from its shell, which removes all stat changes from allies.",
         generation: "VIII",
         pokemon: []
     },
     {
         name: "transistor",
-        description: "",
+        description: "Powers up Electric-type moves.",
         generation: "VIII",
-        pokemon: []
+        pokemon: ["regieleki"]
     },
     {
         name: "dragon's maw",
-        description: "",
+        description: "Powers up Dragon-type moves.",
         generation: "VIII",
-        pokemon: []
+        pokemon: ["regidrago"]
     },
     {
         name: "chilling neigh",
-        description: "",
+        description: "When the Pokémon knocks out a target, it utters a chilling neigh, which boosts its Attack stat.",
         generation: "VIII",
-        pokemon: []
+        pokemon: ["glastrier"]
     },
     {
         name: "grim neigh",
-        description: "",
+        description: "When the Pokémon knocks out a target, it utters a terrifying neigh, which boosts its Sp. Atk stat.",
         generation: "VIII",
-        pokemon: []
+        pokemon: ["spectrier"]
     },
     {
         name: "as one glastrier",
-        description: "",
+        description: "This Ability combines the effects of both Calyrex's Unnerve Ability and Glastrier's Chilling Neigh Ability.",
         generation: "VIII",
-        pokemon: []
+        pokemon: ["calyrex"]
     },
     {
         name: "as one spectrier",
-        description: "",
+        description: "This Ability combines the effects of both Calyrex's Unnerve Ability and Spectrier's Grim Neigh Ability.",
         generation: "VIII",
-        pokemon: []
+        pokemon: ["calyrex"]
     },
     {
         name: "lingering aroma",
-        description: "",
+        description: "Contact with the Pokémon changes the attacker's Ability to Lingering Aroma.",
         generation: "IX",
-        pokemon: []
+        pokemon: ["oinkologne"]
     },
     {
         name: "seed power",
-        description: "",
+        description: "Turns the ground into Grassy Terrain when the Pokémon is hit by an attack.",
         generation: "IX",
-        pokemon: []
+        pokemon: ["arboliva"]
     },
     {
         name: "thermal exchange",
-        description: "",
+        description: "Boosts the Attack stat when the Pokémon is hit by a Fire-type move. The Pokémon also cannot be burned.",
         generation: "IX",
-        pokemon: []
+        pokemon: ["frigibax", "arctibax", "baxcalibur"]
     },
     {
         name: "anger shell",
-        description: "",
+        description: "When an attack causes its HP to drop to half or less, the Pokémon gets angry. This lowers its Defense and Sp. Def stats but boosts its Attack, Sp. Atk, and Speed stats.",
         generation: "IX",
-        pokemon: []
+        pokemon: ["klawf"]
     },
     {
         name: "purifying salt",
-        description: "",
+        description: "The Pokémon's pure salt protects it from status conditions and halves the damage taken from Ghost-type moves.",
         generation: "IX",
-        pokemon: []
+        pokemon: ["nacli", "naclstack", "garganacl"]
     },
     {
         name: "well-baked body",
-        description: "",
+        description: "The Pokémon takes no damage when hit by Fire-type moves. Instead, its Defense stat is sharply boosted.",
         generation: "IX",
-        pokemon: []
+        pokemon: ["dachbun"]
     },
     {
         name: "wind rider",
-        description: "",
+        description: "Boosts the Pokémon's Attack stat if Tailwind takes effect or if the Pokémon is hit by a wind move. The Pokémon also takes no damage from wind moves.",
         generation: "IX",
-        pokemon: []
+        pokemon: ["bramblin", "brambleghast"]
     },
     {
         name: "guard dog",
-        description: "",
+        description: "Boosts the Pokémon's Attack stat if intimidated. Moves and items that would force the Pokémon to switch out also fail to work.",
         generation: "IX",
-        pokemon: []
+        pokemon: ["mabosstiff"]
     },
     {
         name: "rocky payload",
-        description: "",
+        description: "Powers up Rock-type moves.",
         generation: "IX",
-        pokemon: []
+        pokemon: ["bombirdier"]
     },
     {
         name: "wind power",
-        description: "",
+        description: "The Pokémon becomes charged when it is hit by a wind move, boosting the power of the next Electric-type move the Pokémon uses.",
         generation: "IX",
-        pokemon: []
+        pokemon: ["wattrel", "kilowattrel"]
     },
     {
         name: "zero to hero",
         description: "The Pokémon transforms into its Hero Form when it switches out.",
         generation: "IX",
-        pokemon: []
+        pokemon: ["palafin"]
     },
     {
         name: "commander",
         description: "When the Pokémon enters a battle, it goes inside the mouth of an ally Dondozo if one is on the field. The Pokémon then issues commands from there.",
         generation: "IX",
-        pokemon: []
+        pokemon: ["tatsugiri"]
     },
     {
         name: "electromorphosis",
         description: "The Pokémon becomes charged when it takes damage, boosting the power of the next Electric-type move the Pokémon uses.",
         generation: "IX",
-        pokemon: []
+        pokemon: ["bellibolt"]
     },
     {
         name: "protosynthesis",
