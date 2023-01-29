@@ -457,295 +457,295 @@ module.exports = [
     },
     {
         name: "tangled feet",
-        description: "",
+        description: "Boosts the Pokémon's evasiveness if it is confused.",
         generation: "IV",
         pokemon: []
     },
     {
         name: "motor drive",
-        description: "",
+        description: "The Pokémon takes no damage when hit by Electric-type moves. Instead, its Speed stat is boosted.",
         generation: "IV",
         pokemon: []
     },
     {
         name: "rivalry",
-        description: "",
+        description: "The Pokémon's competitive spirit makes it deal more damage to Pokémon of the same gender, but less damage to Pokémon of the opposite gender.",
         generation: "IV",
         pokemon: []
     },
     {
         name: "steadfast",
-        description: "",
+        description: "The Pokémon's determination boosts its Speed stat every time it flinches.",
         generation: "IV",
         pokemon: []
     },
     {
         name: "snow cloak",
-        description: "",
+        description: "Boosts the Pokémon's evasiveness in snow.",
         generation: "IV",
         pokemon: []
     },
     {
         name: "gluttony",
-        description: "",
+        description: "If the Pokémon is holding a Berry to be eaten when its HP is low, it will instead eat the Berry when its HP drops to half or less.",
         generation: "IV",
         pokemon: []
     },
     {
         name: "anger point",
-        description: "",
+        description: "The Pokémon is angered when it takes a critical hit, and that maxes its Attack stat.",
         generation: "IV",
         pokemon: []
     },
     {
         name: "unburden",
-        description: "",
+        description: "Boosts the Speed stat if the Pokémon's held item is used or lost.",
         generation: "IV",
         pokemon: []
     },
     {
         name: "heatproof",
-        description: "",
+        description: "The Pokémon's heatproof body halves the damage taken from Fire-type moves.",
         generation: "IV",
         pokemon: []
     },
     {
         name: "simple",
-        description: "",
+        description: "Doubles the effects of the Pokémon's stat changes.",
         generation: "IV",
         pokemon: []
     },
     {
         name: "dry skin",
-        description: "",
+        description: "Restores the Pokémon's HP in rain or when it is hit by Water-type moves. Reduces HP in harsh sunlight, and increases the damage received from Fire-type moves.",
         generation: "IV",
         pokemon: []
     },
     {
         name: "download",
-        description: "",
+        description: "The Pokémon compares an opposing Pokémon's Defense and Sp. Def stats before raising its own Attack or Sp. Atk stat—whichever will be more effective.",
         generation: "IV",
         pokemon: []
     },
     {
         name: "iron fist",
-        description: "",
+        description: "Powers up punching moves.",
         generation: "IV",
         pokemon: []
     },
     {
         name: "poison heal",
-        description: "",
+        description: "If poisoned, the Pokémon has its HP restored instead of taking damage.",
         generation: "IV",
         pokemon: []
     },
     {
         name: "adaptability",
-        description: "",
+        description: "Powers up moves of the same type as the Pokémon.",
         generation: "IV",
         pokemon: ["porygon-z"]
     },
     {
         name: "skill link",
-        description: "",
+        description: "Maximizes the number of times multistrike moves hit.",
         generation: "IV",
         pokemon: []
     },
     {
         name: "hydration",
-        description: "",
+        description: "Cures the Pokémon's status conditions in rain.",
         generation: "IV",
         pokemon: []
     },
     {
         name: "solar power",
-        description: "",
+        description: "In harsh sunlight, the Pokémon's Sp. Atk stat is boosted, but its HP decreases every turn.",
         generation: "IV",
         pokemon: ["charmander", "charmeleon", "charizard"]
     },
     {
         name: "quick feet",
-        description: "",
+        description: "Boosts the Speed stat if the Pokémon has a status condition.",
         generation: "IV",
         pokemon: []
     },
     {
         name: "normalise",
-        description: "",
+        description: "All the Pokémon's moves become Normal type. The power of those moves is boosted a little.",
         generation: "IV",
         pokemon: []
     },
     {
         name: "sniper",
-        description: "",
+        description: "If the Pokémon's attack lands a critical hit, the attack is powered up even further.",
         generation: "IV",
         pokemon: ["beedrill"]
     },
     {
         name: "magic guard",
-        description: "",
+        description: "The Pokémon only takes damage from attacks.",
         generation: "IV",
         pokemon: []
     },
     {
         name: "no guard",
-        description: "",
+        description: "The Pokémon employs no-guard tactics to ensure incoming and outgoing attacks always land.",
         generation: "IV",
         pokemon: []
     },
     {
         name: "stall",
-        description: "",
+        description: "The Pokémon is always the last to use its moves.",
         generation: "IV",
         pokemon: []
     },
     {
         name: "technician",
-        description: "",
+        description: "Powers up weak moves so the Pokémon can deal more damage with them.",
         generation: "IV",
         pokemon: []
     },
     {
         name: "leaf guard",
-        description: "",
+        description: "Prevents status conditions in harsh sunlight.",
         generation: "IV",
         pokemon: []
     },
     {
         name: "klutz",
-        description: "",
+        description: "The Pokémon can't use any held item",
         generation: "IV",
         pokemon: ["capsakid"]
     },
     {
         name: "mold breaker",
-        description: "",
+        description: "The Pokémon's moves are unimpeded by the Ability of the target.",
         generation: "IV",
         pokemon: []
     },
     {
         name: "super luck",
-        description: "",
+        description: "The Pokémon is so lucky that the critical-hit ratios of its moves are boosted.",
         generation: "IV",
         pokemon: []
     },
     {
         name: "aftermath",
-        description: "",
+        description: "Damages the attacker if it knocks out the Pokémon with a move that makes direct contact.",
         generation: "IV",
         pokemon: []
     },
     {
         name: "anticipation",
-        description: "",
+        description: "The Pokémon can sense an opposing Pokémon's dangerous moves.",
         generation: "IV",
         pokemon: []
     },
     {
         name: "forewarn",
-        description: "",
+        description: "When it enters a battle, the Pokémon can tell one of the moves an opposing Pokémon has.",
         generation: "IV",
         pokemon: []
     },
     {
         name: "unaware",
-        description: "",
+        description: "When attacking, the Pokémon ignores the target's stat changes.",
         generation: "IV",
         pokemon: []
     },
     {
         name: "tinted lens",
-        description: "",
+        description: "The Pokémon can use 'not very effective' moves to deal regular damage.",
         generation: "IV",
         pokemon: ["butterfree"]
     },
     {
         name: "filter",
-        description: "",
+        description: "Reduces the power of supereffective attacks that hit the Pokémon.",
         generation: "IV",
         pokemon: []
     },
     {
         name: "slow start",
-        description: "",
+        description: "For five turns, the Pokémon's Attack and Speed stats are halved.",
         generation: "IV",
         pokemon: []
     },
     {
         name: "scrappy",
-        description: "",
+        description: "The Pokémon can hit Ghost-type Pokémon with Normal- and Fighting-type moves. It is also unaffected by Intimidate.",
         generation: "IV",
         pokemon: ["miltank"]
     },
     {
         name: "storm drain",
-        description: "",
+        description: "The Pokémon draws in all Water-type moves. Instead of taking damage from them, its Sp. Atk stat is boosted",
         generation: "IV",
         pokemon: []
     },
     {
         name: "ice body",
-        description: "",
+        description: "The Pokémon gradually regains HP in snow.",
         generation: "IV",
         pokemon: []
     },
     {
         name: "solid rock",
-        description: "",
+        description: "Reduces the power of supereffective attacks that hit the Pokémon.",
         generation: "IV",
         pokemon: []
     },
     {
         name: "snow warning",
-        description: "",
+        description: "The Pokémon makes it snow when it enters a battle.",
         generation: "IV",
         pokemon: []
     },
     {
         name: "honey gather",
-        description: "",
+        description: "The Pokémon may gather Honey after a battle.",
         generation: "IV",
         pokemon: []
     },
     {
         name: "frisk",
-        description: "",
+        description: "When it enters a battle, the Pokémon can check an opposing Pokémon's held item.",
         generation: "IV",
         pokemon: []
     },
     {
         name: "reckless",
-        description: "",
+        description: "Powers up moves that have recoil damage.",
         generation: "IV",
         pokemon: []
     },
     {
         name: "multitype",
-        description: "",
+        description: "Changes the Pokémon's type to match the plate it holds.",
         generation: "IV",
         pokemon: []
     },
     {
         name: "flower gift",
-        description: "",
+        description: "Boosts the Attack and Sp. Def stats of the Pokémon and its allies in harsh sunlight.",
         generation: "IV",
         pokemon: []
     },
     {
         name: "bad dreams",
-        description: "",
+        description: "Damages opposing Pokémon that are asleep.",
         generation: "IV",
         pokemon: []
     },
     {
         name: "pickpocket",
-        description: "",
+        description: "The Pokémon steals the held item from attackers that make direct contact with it.",
         generation: "V",
         pokemon: []
     },
     {
         name: "sheer force",
-        description: "",
+        description: "Removes any additional effects from the Pokémon's moves, but increases the moves' power.",
         generation: "V",
         pokemon: []
     },
