@@ -1,0 +1,5 @@
+DROP DATABASE IF EXISTS pokemon;
+DROP DATABASE IF EXISTS pokemon_test;
+
+CREATE DATABASE pokemon;
+CREATE DATABASE pokemon_test;
