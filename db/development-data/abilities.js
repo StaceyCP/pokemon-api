@@ -39,97 +39,97 @@ module.exports = [
         name: "limber",
         description: "The Pokémon's limber body prevents it from being paralyzed.",
         generation: "III",
-        pokemon: []
+        pokemon: ["persian", "hitmonlee", "ditto", "buneary", "lopunny", "glameow", "purrloin", "liepard", "stunfisk", "hawlucha", "mareanie", "toxapex", "clobbopus", "grapploct"]
     },
     {
         name: "sand veil",
         description: "Boosts the Pokémon's evasiveness in a sandstorm.",
         generation: "III",
-        pokemon: ["larvitar"]
+        pokemon: ["sandshrew", "sandslash", "diglett", "dugtrio", "geodude", "graveler", "golem", "gligar", "gliscor", "phanpy", "donphan", "larvitar", "cacnea", "cacturne", "gible", "gabite", "garchomp", "stunfisk", "helioptile", "heliosk", "sandyghast", "palossand", "silicobra", "sandaconda", "wiglett", "wugtrio", "orthworm"]
     },
     {
         name: "static",
         description: "The Pokémon is charged with static electricity and may paralyze attackers that make direct contact with it.",
         generation: "III",
-        pokemon: ["elekid"]
+        pokemon: ["pikachu", "raichu", "voltorb", "electrode", "electabuzz", "zapdos", "pichu", "elekid", "mareep", "flaafy", "ampharos", "electrike", "manectric", "emolga", "stunfisk", "toxel", "arctozolt", "pawmi", "tadbulb", "bellibolt"]
     },
     {
         name: "volt absorb",
         description: "If hit by an Electric-type move, the Pokémon has its HP restored instead of taking damage.",
         generation: "III",
-        pokemon: []
+        pokemon: ["jolteon", "chinchou", "lantern", "minun", "pachirisu", "thundurus", "zeraora", "dracozolt", "arctozolt", "pawmo", "pawmot", "wattrel", "kilowattrel"]
     },
     {
         name: "water absorb",
         description: "If hit by a Water-type move, the Pokémon has its HP restored instead of taking damage.",
         generation: "III",
-        pokemon: []
+        pokemon: ["poliwag", "poliwhirl", "poliwrath", "lapras", "vaporeon", "politoed", "chinchou", "lantern", "wooper", "quagsire", "mantyke", "mantine", "cacnea", "cacturne", "tympole", "palpitoad", "seismitoad", "maractus", "frillish", "jellicent", "volcanion", "dewpider", "araquanid", "dracovish", "arctovish"]
     },
     {
         name: "oblivious",
         description: "The Pokémon is oblivious, keeping it from being infatuated, falling for taunts, or being affected by Intimidate.",
         generation: "III",
-        pokemon: []
+        pokemon: ["slowpoke", "slowbro", "lickitung", "jynx", "slowking", "smoochum", "lickilicky", "swinub", "piloswine", "mamoswine", "illumise", "wailmer", "wailord", "numel", "barboach", "whiscash", "feebas", "spheal", "sealeo", "walrein", "salandit", "salazzle", "bounsweet", "steenee", "dondozo"] 
     },
     {
         name: "cloud nine",
         description: "Eliminates the effects of weather.",
         generation: "III",
-        pokemon: []
+        pokemon: ["psyduck", "golduck", "lickitung", "lickilicky", "swablu", "altaria", "drampa"]
     },
     {
         name: "compound eyes",
         description: "The Pokémon's compound eyes boost its accuracy.",
         generation: "III",
-        pokemon: ["butterfree"]
+        pokemon: ["butterfree", "venonat", "yanma", "dustox", "nincada", "joltik", "galvantula", "scatterbug", "vivillon", "blipbug", "dottler", "rellor"]
     },
     {
         name: "insomnia",
         description: "	The Pokémon's insomnia prevents it from falling asleep.",
         generation: "III",
-        pokemon: ["capsakid", "scovillian"]
+        pokemon: ["drowzee", "hypno", "mewtwo", "hoothoot", "noctowl", "spinarak", "ariados", "murkrow", "honchkrow", "delibird", "shuppet", "banette", "pumpkaboo", "gourgeist", "tarountula", "spidops", "capsakid", "scovillian"]
     },
     {
         name: "color change",
         description: "The Pokémon's type becomes the type of the move used on it.",
         generation: "III",
-        pokemon: []
+        pokemon: ["kecleon"]
     },
     {
         name: "immunity",
         description: "The Pokémon's immune system prevents it from being poisoned.",
         generation: "III",
-        pokemon: []
+        pokemon: ["snorlax", "gligar", "zangoose"]
     },
     {
         name: "flash fire",
         description: "If hit by a Fire-type move, the Pokémon absorbs the flames and uses them to power up its own Fire-type moves.",
         generation: "III",
-        pokemon: []
+        pokemon: ["vulpix", "ninetails", "growlithe", "arcanine", "ponyta", "rapidash", "flareon", "cyndaquil", "quilava", "typhlosion", "houndour", "houndoom", "heatran", "litwick", "lampent", "chandelure", "heatmor", "rolycoly", "carkol", "coalossal", "sizzlipede", "centiskorch", "charcadet", "armarouge", "ceruledge"]
     },
     {
         name: "shield dust",
         description: "Protective dust shields the Pokémon from the additional effects of moves.",
         generation: "III",
-        pokemon: ["caterpie", "weedle"]
+        pokemon: ["caterpie", "weedle", "venomoth", "wurmple", "dustox", "scatterbug", "vivillon", "cutiefly", "ribombee", "snom", "frosmoth"]
     },
     {
         name: "own tempo",
         description: "The Pokémon sticks to its own tempo, preventing it from becoming confused or being affected by Intimidate.",
         generation: "III",
-        pokemon: []
+        pokemon: ["slowpoke", "slowbro", "lickitung", "lickilicky", "slowking", "smeargle", "lotad", "lombre", "ludicolo", "numel", "spoink", "grumpig", "spinda", "glameow", "purugly", "petilil", "lilligant", "espurr", "bergmite", "avalugg", "rockruff", "mudbray", "mudsdale", "indeedee", "tandemaus", "fidough", "tadbulb", "tinkatink", "tinkatuff", "tinkaton"]
     },
     {
         name: "suction cups",
         description: "The Pokémon uses suction cups to stay in one spot. This protects it from moves and items that would force it to switch out.",
         generation: "III",
-        pokemon: []
+        pokemon: ["octillery", "lileep", "cradily", "inkay", "malamar"]
     },
     {
         name: "intimidate",
         description: "When the Pokémon enters a battle, it intimidates opposing Pokémon and makes them cower, lowering their Attack stats.",
         generation: "III",
-        pokemon: []
+        pokemon: ["ekans", "arbok", "growlithe", "arcanine", "tauros", "gyarados", "hitmontop", "subbull", "granbull", "qwilfish", "overqwil", "stantler", "wyrdeer", "mightyena", "masquerain", "mawile", "manectric", "salamence", "staravia", "staraptor", "shinx", "luxio", "luxray", "herdier", "stoutland", "sandile", "krokorok", "krookodile", "scraggy", "scrafty", "landorus", "litten", "torrecat", "incineroar", "squawkabilly", "maschiff", "mabosstiff"]
     },
     {
         name: "shadow tag",
@@ -141,7 +141,7 @@ module.exports = [
         name: "rough skin",
         description: "The Pokémon's rough skin damages attackers that make direct contact with it.",
         generation: "III",
-        pokemon: []
+        pokemon: ["gible", "gabite", "garchomp"]
     },
     {
         name: "wonder guard",
@@ -183,7 +183,7 @@ module.exports = [
         name: "lightning rod",
         description: "The Pokémon draws in all Electric-type moves. Instead of taking damage from them, its Sp. Atk stat is boosted.",
         generation: "III",
-        pokemon: []
+        pokemon: ["electrike", "manectric"]
     },
     {
         name: "serene grace",
@@ -195,7 +195,7 @@ module.exports = [
         name: "swift swim",
         description: "Boosts the Pokémon's Speed stat in rain.",
         generation: "III",
-        pokemon: []
+        pokemon: ["psyduck", "golduck", "qwilfish", "overqwil"]
     },
     {
         name: "chlorophyll",
@@ -207,7 +207,7 @@ module.exports = [
         name: "illuminate",
         description: "Raises the likelihood of meeting wild Pokémon by illuminating the surroundings.",
         generation: "III",
-        pokemon: []
+        pokemon: ["chinchou", "lantern"]
     },
     {
         name: "trace",
@@ -225,13 +225,13 @@ module.exports = [
         name: "poison point",
         description: "Contact with the Pokémon may poison the attacker.",
         generation: "III",
-        pokemon: []
+        pokemon: ["qwilfish", "overqwil"]
     },
     {
         name: "inner focus",
         description: "The Pokémon's intense focus prevents it from flinching or being affected by Intimidate.",
         generation: "III",
-        pokemon: ["raiku", "entei", "suicine"]
+        pokemon: ["raiku", "entei", "suicine","mudbray", "mudsdale"]
     },
     {
         name: "magma armor",
@@ -279,7 +279,7 @@ module.exports = [
         name: "thick fat",
         description: "The Pokémon is protected by a layer of thick fat, which halves the damage taken from Fire- and Ice-type moves.",
         generation: "III",
-        pokemon: ["miltank"]
+        pokemon: ["snorlax", "spoink", "grumpig", "miltank"]
     },
     {
         name: "early bird",
@@ -291,7 +291,7 @@ module.exports = [
         name: "flame body",
         description: "Contact with the Pokémon may burn the attacker.",
         generation: "III",
-        pokemon: ["magby"]
+        pokemon: ["magby", "litwick", "lampent", "chandelure"]
     },
     {
         name: "run away",
@@ -339,13 +339,13 @@ module.exports = [
         name: "plus",
         description: "Boosts the Sp. Atk stat of the Pokémon if an ally with the Plus or Minus Ability is also in battle.",
         generation: "III",
-        pokemon: []
+        pokemon: ["mareep", "flaafy", "ampharos"]
     },
     {
         name: "minus",
         description: "Boosts the Sp. Atk stat of the Pokémon if an ally with the Plus or Minus Ability is also in battle.",
         generation: "III",
-        pokemon: []
+        pokemon: ["electrike", "manectric"]
     },
     {
         name: "forecast",
@@ -369,7 +369,7 @@ module.exports = [
         name: "guts",
         description: "It's so gutsy that having a status condition boosts the Pokémon's Attack stat.",
         generation: "III",
-        pokemon: ["larvitar"]
+        pokemon: ["larvitar", "shinx", "luxio", "luxray"]
     },
     {
         name: "marvel scale",
@@ -393,7 +393,7 @@ module.exports = [
         name: "blaze",
         description: "Powers up Fire-type moves when the Pokémon's HP is low.",
         generation: "III",
-        pokemon: ["charmander", "charmeleon", "charizard", "torchic", "combusken", "blaziken", "cyndaquil" , "quilava", "typhlosion"]
+        pokemon: ["charmander", "charmeleon", "charizard", "torchic", "combusken", "blaziken", "cyndaquil" , "quilava", "typhlosion", "litten", "torrecat", "incineroar"]
     },
     {
         name: "torrent",
@@ -447,7 +447,7 @@ module.exports = [
         name: "shell armor",
         description: "A hard shell protects the Pokémon from critical hits.",
         generation: "III",
-        pokemon: []
+        pokemon: ["lapras"]
     },
     {
         name: "air lock",
@@ -471,7 +471,7 @@ module.exports = [
         name: "rivalry",
         description: "The Pokémon's competitive spirit makes it deal more damage to Pokémon of the same gender, but less damage to Pokémon of the opposite gender.",
         generation: "IV",
-        pokemon: []
+        pokemon: ["shinx", "luxio", "luxray"]
     },
     {
         name: "steadfast",
@@ -489,7 +489,7 @@ module.exports = [
         name: "gluttony",
         description: "If the Pokémon is holding a Berry to be eaten when its HP is low, it will instead eat the Berry when its HP drops to half or less.",
         generation: "IV",
-        pokemon: []
+        pokemon: ["snorlax", "spoink", "grumpig"]
     },
     {
         name: "anger point",
@@ -519,7 +519,7 @@ module.exports = [
         name: "dry skin",
         description: "Restores the Pokémon's HP in rain or when it is hit by Water-type moves. Reduces HP in harsh sunlight, and increases the damage received from Fire-type moves.",
         generation: "IV",
-        pokemon: []
+        pokemon: ["helioptile", "heliosk"]
     },
     {
         name: "download",
@@ -555,13 +555,13 @@ module.exports = [
         name: "hydration",
         description: "Cures the Pokémon's status conditions in rain.",
         generation: "IV",
-        pokemon: []
+        pokemon: ["lapras"]
     },
     {
         name: "solar power",
         description: "In harsh sunlight, the Pokémon's Sp. Atk stat is boosted, but its HP decreases every turn.",
         generation: "IV",
-        pokemon: ["charmander", "charmeleon", "charizard"]
+        pokemon: ["charmander", "charmeleon", "charizard", "helioptile", "heliosk"]
     },
     {
         name: "quick feet",
@@ -705,7 +705,7 @@ module.exports = [
         name: "honey gather",
         description: "The Pokémon may gather Honey after a battle.",
         generation: "IV",
-        pokemon: []
+        pokemon: ["teddiursa", "combee", "cutiefly", "ribombee"]
     },
     {
         name: "frisk",
@@ -753,7 +753,7 @@ module.exports = [
         name: "contrary",
         description: "",
         generation: "V",
-        pokemon: []
+        pokemon: ["inkay", "malamar"]
     },
     {
         name: "unnerve",
@@ -861,7 +861,7 @@ module.exports = [
         name: "regenerator",
         description: "",
         generation: "V",
-        pokemon: ["ho-oh"]
+        pokemon: ["ho-oh", "mareanie", "toxapex"]
     },
     {
         name: "big pecks",
@@ -903,7 +903,7 @@ module.exports = [
         name: "infiltrator",
         description: "",
         generation: "V",
-        pokemon: []
+        pokemon: ["litwick", "lampent", "chandelure", "inkay", "malamar"]
     },
     {
         name: "mummy",
@@ -1039,19 +1039,19 @@ module.exports = [
     },
     {
         name: "refrigerate",
-        description: "",
+        description: "Normal-type moves become Ice-type moves. The power of those moves is boosted a little.",
         generation: "VI",
         pokemon: []
     },
     {
         name: "sweet veil",
-        description: "",
+        description: "Prevents the Pokémon and its allies from falling asleep.",
         generation: "VI",
-        pokemon: []
+        pokemon: ["cutiefly", "ribombee"]
     },
     {
         name: "stance change",
-        description: "",
+        description: "The Pokémon changes its form to Blade Forme when it uses an attack move and changes to Shield Forme when it uses King's Shield.",
         generation: "VI",
         pokemon: []
     },
@@ -1149,7 +1149,7 @@ module.exports = [
         name: "stamina",
         description: "",
         generation: "VII",
-        pokemon: []
+        pokemon: ["mudbray", "mudsdale"]
     },
     {
         name: "wimp out",
@@ -1167,13 +1167,13 @@ module.exports = [
         name: "water compaction",
         description: "",
         generation: "VII",
-        pokemon: []
+        pokemon: ["sandyghast", "palossand"]
     },
     {
         name: "merciless",
         description: "",
         generation: "VII",
-        pokemon: []
+        pokemon: ["mareanie", "toxapex"]
     },
     {
         name: "shields down",
@@ -1269,7 +1269,7 @@ module.exports = [
         name: "corrosion",
         description: "",
         generation: "VII",
-        pokemon: []
+        pokemon: ["salandit", "salazzle"]
     },
     {
         name: "comatose",
