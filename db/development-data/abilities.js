@@ -135,19 +135,19 @@ module.exports = [
         name: "shadow tag",
         description: "The Pokémon steps on the opposing Pokémon's shadows to prevent them from fleeing or switching out.",
         generation: "III",
-        pokemon: []
+        pokemon: ["gengar", "wynaut", "wobbuffet", "gothita", "gothorita", "gothitelle"]
     },
     {
         name: "rough skin",
         description: "The Pokémon's rough skin damages attackers that make direct contact with it.",
         generation: "III",
-        pokemon: ["gible", "gabite", "garchomp"]
+        pokemon: ["carvanha", "sharpedo", "gible", "gabite", "garchomp", "druddigon"]
     },
     {
         name: "wonder guard",
         description: "Its mysterious power only lets supereffective moves hit the Pokémon.",
         generation: "III",
-        pokemon: []
+        pokemon: ["shedinja"]
     },
     {
         name: "levitate",
@@ -621,7 +621,7 @@ module.exports = [
         name: "mold breaker",
         description: "The Pokémon's moves are unimpeded by the Ability of the target.",
         generation: "IV",
-        pokemon: []
+        pokemon: ["druddigon"]
     },
     {
         name: "super luck",
@@ -747,7 +747,7 @@ module.exports = [
         name: "sheer force",
         description: "Removes any additional effects from the Pokémon's moves, but increases the moves' power.",
         generation: "V",
-        pokemon: []
+        pokemon: ["druddigon"]
     },
     {
         name: "contrary",
@@ -837,7 +837,7 @@ module.exports = [
         name: "telepathy",
         description: "",
         generation: "V",
-        pokemon: []
+        pokemon: ["wynaut", "wobbuffet"]
     },
     {
         name: "moody",
