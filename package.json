@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "setup-dbs": "psql -f ./db/setup.sql",
+    "seed": "node ./db/seeding/run-seed.js",
+    "test": "jest"
   },
   "author": "Stacey Parrat",
   "license": "ISC",
@@ -16,7 +18,13 @@
   },
   "devDependencies": {
     "jest": "^29.4.1",
+    "jest-extended": "^3.2.3",
     "jest-sorted": "^1.0.14",
     "supertest": "^6.3.3"
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "jest-extended/all"
+    ]
   }
 }
