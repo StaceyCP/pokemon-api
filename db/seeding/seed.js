@@ -1,11 +1,9 @@
 const db = require("../connection")
+const format = require('pg-format')
 
-const seed = () => {
+const seed = ({generations, types}) => {
     return db
         .query('DROP TABLE IF EXISTS abilities;')
-        .then(() => {
-            return db.query('DROP TABLE IF EXISTS moves;')
-        })
         .then(() => {
             return db.query('DROP TABLE IF EXISTS pokemon;')
         })
@@ -26,8 +24,6 @@ const seed = () => {
             return db.query(`CREATE TABLE types (
                 type VARCHAR(150) PRIMARY KEY,
                 description TEXT,
-                strengths VARCHAR(100)[],
-                weaknesses VARCHAR(100)[],
                 generation VARCHAR(10) REFERENCES generations(generation)
             );`)
         })
@@ -41,15 +37,6 @@ const seed = () => {
             );`)
         })
         .then(() => {
-            return db.query(`CREATE TABLE moves (
-                id SERIAL PRIMARY KEY,
-                name VARCHAR(200),
-                type VARCHAR(150) REFERENCES types(type),
-                learnedBy VARCHAR(200)[],
-                generation VARCHAR(10) REFERENCES generations(generation)
-            );`)
-        })
-        .then(() => {
             return db.query(`CREATE TABLE abilities (
                 id SERIAL PRIMARY KEY,
                 name VARCHAR(200),
@@ -57,6 +44,21 @@ const seed = () => {
                 pokemon VARCHAR(200)[],
                 generation VARCHAR(10) REFERENCES generations(generation)
             );`)
+        })
+        .then(() => {
+
+            const generationsInsertStr = format(`INSERT INTO generations (generation, newPokemon, totalPokemon) 
+            VALUES %L RETURNING *;`, generations.map(({generation, newPokemon, totalPokemon}) => {
+                return [generation, newPokemon, totalPokemon]
+            }))
+            return db.query(generationsInsertStr);
+        })
+        .then(() => {
+            const typesInsertStr = format(`INSERT INTO types (type, generation, description)
+            VALUES %L RETURNING *;`, types.map(({type, generation, description}) => {
+                return [type, generation, description]
+            }))
+            return db.query(typesInsertStr);
         })
 }
 
