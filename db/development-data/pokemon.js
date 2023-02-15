@@ -971,7 +971,7 @@ module.exports = [
         genaration: "II",
     },
     {
-        name: "gloom",
+        name: "quagsire",
         spriteURL: "", 
         genaration: "II",
     },

@@ -930,354 +930,542 @@ module.exports = [
     },
     {
         name: "noctowl", 
-        type: "flyingl"
+        type: "flying"
     },
     {
         name: "ledyba", 
-        type: ""
+        type: "bug"
+    },
+    {
+        name: "ledyba", 
+        type: "flying"
     },
     {
         name: "ledian", 
-        type: ""
+        type: "bug"
+    },
+    {
+        name: "ledian", 
+        type: "flying"
     },
     {
         name: "spinarak", 
-        type: ""
+        type: "bug"
+    },
+    {
+        name: "spinarak", 
+        type: "poison"
     },
     {
         name: "ariados", 
-        type: ""
+        type: "bug"
+    },
+    {
+        name: "ariados", 
+        type: "poison"
     },
     {
         name: "crobat", 
-        type: ""
+        type: "poison"
+    },
+    {
+        name: "crobat", 
+        type: "flying"
     },
     {
         name: "chinchou", 
-        type: ""
+        type: "water"
+    },
+    {
+        name: "chinchou", 
+        type: "electric"
     },
     {
         name: "lantern", 
-        type: ""
+        type: "water"
+    },
+    {
+        name: "lantern", 
+        type: "electric"
     },
     {
         name: "pichu", 
-        type: ""
+        type: "electric"
     },
     {
         name: "cleffa", 
-        type: ""
+        type: "fairy"
     },
     {
         name: "igglybuff", 
-        type: ""
+        type: "normal"
+    },
+    {
+        name: "igglybuff", 
+        type: "fairy"
     },
     {
         name: "togepi", 
-        type: ""
+        type: "fairy"
     },
     {
         name: "togetic", 
-        type: ""
+        type: "fairy"
+    },
+    {
+        name: "togetic", 
+        type: "flying"
     },
     {
         name: "natu", 
-        type: ""
+        type: "psychic"
+    },
+    {
+        name: "natu", 
+        type: "flying"
     },
     {
         name: "xatu", 
-        type: ""
+        type: "psychic"
+    },
+    {
+        name: "xatu", 
+        type: "flying"
     },
     {
         name: "mareep", 
-        type: ""
+        type: "electric"
     },
     {
         name: "flaaffy", 
-        type: ""
+        type: "electric"
     },
     {
         name: "ampharos", 
-        type: ""
+        type: "electric"
     },
     {
         name: "bellossom", 
-        type: ""
+        type: "grass"
     },
     {
         name: "marill", 
-        type: ""
+        type: "water"
+    },
+    {
+        name: "marill", 
+        type: "fairy"
     },
     {
         name: "azumarill", 
-        type: ""
+        type: "water"
+    },
+    {
+        name: "azumarill", 
+        type: "fairy"
     },
     {
         name: "sudowoodo", 
-        type: ""
+        type: "rock"
     },
     {
         name: "politoed", 
-        type: ""
+        type: "water"
     },
     {
         name: "hoppip", 
-        type: ""
+        type: "grass"
+    },
+    {
+        name: "hoppip", 
+        type: "flying"
     },
     {
         name: "skiploom", 
-        type: ""
+        type: "grass"
+    },
+    {
+        name: "skiploom", 
+        type: "flying"
     },
     {
         name: "jumpluff", 
-        type: ""
+        type: "grass"
+    },
+    {
+        name: "jumpluff", 
+        type: "flying"
     },
     {
         name: "aipom", 
-        type: ""
+        type: "normal"
     },
     {
         name: "sunkern", 
-        type: ""
+        type: "grass"
     },
     {
         name: "sunflora", 
-        type: ""
+        type: "grass"
     },
     {
         name: "yanma", 
-        type: ""
+        type: "bug"
+    },
+    {
+        name: "yanma", 
+        type: "flying"
     },
     {
         name: "wooper", 
-        type: ""
+        type: "water"
     },
     {
-        name: "gloom", 
-        type: ""
+        name: "wooper", 
+        type: "ground"
+    },
+    {
+        name: "quagsire", 
+        type: "water"
+    },
+    {
+        name: "quagsire", 
+        type: "ground"
     },
     {
         name: "espeon", 
-        type: ""
+        type: "psychic"
     },
     {
         name: "umbreon", 
-        type: ""
+        type: "dark"
     },
     {
         name: "murkrow", 
-        type: ""
+        type: "dark"
+    },
+    {
+        name: "murkrow", 
+        type: "flying"
     },
     {
         name: "slowking", 
-        type: ""
+        type: "water"
+    },
+    {
+        name: "slowking", 
+        type: "psychic"
     },
     {
         name: "misdreavus", 
-        type: ""
+        type: "ghost"
     },
     {
         name: "unown", 
-        type: ""
+        type: "psychic"
     },
     {
         name: "wobbuffet", 
-        type: ""
+        type: "psychic"
     },
     {
         name: "girafarig", 
-        type: ""
+        type: "normal"
+    },
+    {
+        name: "girafarig", 
+        type: "psychic"
     },
     {
         name: "pineco", 
-        type: ""
+        type: "bug"
     },
     {
         name: "forretress", 
-        type: ""
+        type: "bug"
+    },
+    {
+        name: "forretress", 
+        type: "steel"
     },
     {
         name: "dunsparce", 
-        type: ""
+        type: "normal"
     },
     {
         name: "gligar", 
-        type: ""
+        type: "ground"
+    },
+    {
+        name: "gligar", 
+        type: "flying"
     },
     {
         name: "steelix", 
-        type: ""
+        type: "steel"
+    },
+    {
+        name: "steelix", 
+        type: "ground"
     },
     {
         name: "snubbull", 
-        type: ""
+        type: "fairy"
     },
     {
         name: "granbull", 
-        type: ""
+        type: "fairy"
     },
     {
         name: "qwilfish", 
-        type: ""
+        type: "water"
+    },
+    {
+        name: "qwilfish", 
+        type: "poison"
     },
     {
         name: "scizor", 
-        type: ""
+        type: "bug"
+    },
+    {
+        name: "scizor", 
+        type: "steel"
     },
     {
         name: "shuckle", 
-        type: ""
+        type: "bug"
+    },
+    {
+        name: "shuckle", 
+        type: "rock"
     },
     {
         name: "heracross", 
-        type: ""
+        type: "bug"
+    },
+    {
+        name: "heracross", 
+        type: "fighting"
     },
     {
         name: "sneasel", 
-        type: ""
+        type: "dark"
+    },
+    {
+        name: "sneasel", 
+        type: "ice"
     },
     {
         name: "teddiursa", 
-        type: ""
+        type: "normal"
     },
     {
         name: "ursaring", 
-        type: ""
+        type: "normal"
     },
     {
         name: "slugma", 
-        type: ""
+        type: "fire"
     },
     {
         name: "magcargo", 
-        type: ""
+        type: "fire"
+    },
+    {
+        name: "magcargo", 
+        type: "rock"
     },
     {
         name: "swinub", 
-        type: ""
+        type: "ice"
+    },
+    {
+        name: "swinub", 
+        type: "ground"
     },
     {
         name: "piloswine", 
-        type: ""
+        type: "ice"
+    },
+    {
+        name: "piloswine", 
+        type: "ground"
     },
     {
         name: "corsola", 
-        type: ""
+        type: "water"
+    },
+    {
+        name: "corsola", 
+        type: "rock"
     },
     {
         name: "remoraid", 
-        type: ""
+        type: "water"
     },
     {
         name: "octillery", 
-        type: ""
+        type: "water"
     },
     {
         name: "delibird", 
-        type: ""
+        type: "ice"
+    },
+    {
+        name: "delibird", 
+        type: "flying"
     },
     {
         name: "mantine", 
-        type: ""
+        type: "water"
+    },
+    {
+        name: "mantine", 
+        type: "flying"
     },
     {
         name: "skarmory", 
-        type: ""
+        type: "steel"
+    },
+    {
+        name: "skarmory", 
+        type: "flying"
     },
     {
         name: "houndour", 
-        type: ""
+        type: "dark"
+    },
+    {
+        name: "houndour", 
+        type: "fire"
     },
     {
         name: "houndoom", 
-        type: ""
+        type: "dark"
+    },
+    {
+        name: "houndoom", 
+        type: "fire"
     },
     {
         name: "kingdra", 
-        type: ""
+        type: "water"
+    },
+    {
+        name: "kingdra", 
+        type: "dragon"
     },
     {
         name: "phanpy", 
-        type: ""
+        type: "ground"
     },
     {
         name: "donphan", 
-        type: ""
+        type: "ground"
     },
     {
         name: "porygon 2", 
-        type: ""
+        type: "normal"
     },
     {
         name: "stantler", 
-        type: ""
+        type: "normal"
     },
     {
         name: "smeargle", 
-        type: ""
+        type: "normal"
     },
     {
         name: "tyrogue", 
-        type: ""
+        type: "fighting"
     },
     {
         name: "hitmontop", 
-        type: ""
+        type: "fighting"
     },
     {
         name: "smoochum", 
-        type: ""
+        type: "ice"
+    },
+    {
+        name: "smoochum", 
+        type: "psychic"
     },
     {
         name: "elekid", 
-        type: ""
+        type: "electric"
     },
     {
         name: "magby", 
-        type: ""
+        type: "fire"
     },
     {
         name: "miltankr", 
-        type: ""
+        type: "normal"
     },
     {
         name: "blissey", 
-        type: ""
+        type: "normal"
     },
     {
         name: "raikou", 
-        type: ""
+        type: "electric"
     },
     {
         name: "entei", 
-        type: ""
+        type: "fire"
     },
     {
         name: "suicune", 
-        type: ""
+        type: "water"
     },
     {
         name: "larvitar", 
-        type: ""
+        type: "rock"
+    },
+    {
+        name: "larvitar", 
+        type: "ground"
     },
     {
         name: "pupitar", 
-        type: ""
+        type: "rock"
+    },
+    {
+        name: "pupitar", 
+        type: "ground"
     },
     {
         name: "tyranitar", 
-        type: ""
+        type: "rock"
+    },
+    {
+        name: "tyranitar", 
+        type: "dark"
     },
     {
         name: "lugia", 
-        type: ""
+        type: "psychic"
+    },
+    {
+        name: "lugia", 
+        type: "flying"
     },
     {
         name: "ho-oh", 
-        type: ""
+        type: "fire"
+    },
+    {
+        name: "ho-oh", 
+        type: "flying"
     },
     {
         name: "celebi", 
-        type: ""
+        type: "psychic"
+    },
+    {
+        name: "celebi", 
+        type: "grass"
     }
 ]
