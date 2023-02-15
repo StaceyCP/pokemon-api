@@ -1001,52 +1001,52 @@ module.exports = [
     },
     {
         name: "berserk",
-        description: "",
+        description: "Boosts the Pokémon's Sp. Atk stat when it takes a hit that causes its HP to drop to half or less.",
         generation: "VII",
     },
     {
         name: "slush rush",
-        description: "",
+        description: "Boosts the Pokémon's Speed stat in snow.",
         generation: "VII",
     },
     {
         name: "long reach",
-        description: "",
+        description: "The Pokémon uses its moves without making contact with the target.",
         generation: "VII",
     },
     {
         name: "liquid voice",
-        description: "",
+        description: "Sound-based moves become Water-type moves.",
         generation: "VII",
     },
     {
         name: "triage",
-        description: "",
+        description: "Gives priority to the Pokémon's healing moves.",
         generation: "VII",
     },
     {
         name: "galvanise",
-        description: "",
+        description: "Normal-type moves become Electric-type moves. The power of those moves is boosted a little.",
         generation: "VII",
     },
     {
         name: "surge surfer",
-        description: "",
+        description: "Doubles the Pokémon's Speed stat on Electric Terrain.",
         generation: "VII",
     },
     {
         name: "schooling",
-        description: "",
+        description: "When it has a lot of HP, the Pokémon forms a powerful school. It stops schooling when its HP is low.",
         generation: "VII",
     },
     {
         name: "disguise",
-        description: "",
+        description: "Once per battle, the shroud that covers the Pokémon can protect it from an attack.",
         generation: "VII",
     },
     {
         name: "battle bond",
-        description: "",
+        description: "When the Pokémon knocks out a target, its bond with its Trainer is strengthened, and its Attack, Sp. Atk, and Speed stats are boosted.",
         generation: "VII",
     },
     {

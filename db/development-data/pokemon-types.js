@@ -521,312 +521,416 @@ module.exports = [
     },
     {
         name: "grimer", 
-        type: ""
+        type: "poison"
     },
     {
         name: "muk", 
-        type: ""
+        type: "poison"
     },
     {
         name: "shellder", 
-        type: ""
+        type: "water"
     },
     {
         name: "cloyster", 
-        type: ""
+        type: "water"
+    },
+    {
+        name: "cloyster", 
+        type: "ice"
     },
     {
         name: "gastly", 
-        type: ""
+        type: "ghost"
+    },
+    {
+        name: "gastly", 
+        type: "poison"
     },
     {
         name: "haunter", 
-        type: ""
+        type: "ghost"
+    },
+    {
+        name: "haunter", 
+        type: "poison"
     },
     {
         name: "gengar", 
-        type: ""
+        type: "ghost"
+    },
+    {
+        name: "gengar", 
+        type: "poison"
     },
     {
         name: "onix", 
-        type: ""
+        type: "rock"
+    },
+    {
+        name: "onix", 
+        type: "ground"
     },
     {
         name: "drowzee", 
-        type: ""
+        type: "psychic"
     },
     {
         name: "hypno", 
-        type: ""
+        type: "psychic"
     },
     {
         name: "krabby", 
-        type: ""
+        type: "water"
     },
     {
         name: "kingler", 
-        type: ""
+        type: "water"
     },
     {
         name: "voltorb", 
-        type: ""
+        type: "electric"
     },
     {
         name: "electrode", 
-        type: ""
+        type: "electric"
     },
     {
         name: "exeggcute", 
-        type: ""
+        type: "grass"
+    },
+    {
+        name: "exeggcute", 
+        type: "psychic"
     },
     {
         name: "exeggutor", 
-        type: ""
+        type: "grass"
+    },
+    {
+        name: "exeggutor", 
+        type: "psychic"
     },
     {
         name: "cubone", 
-        type: ""
+        type: "ground"
     },
     {
         name: "marowak", 
-        type: ""
+        type: "ground"
     },
     {
         name: "hitmonlee", 
-        type: ""
+        type: "fighting"
     },
     {
         name: "hitmonchan", 
-        type: ""
+        type: "fighting"
     },
     {
         name: "lickitung", 
-        type: ""
+        type: "normal"
     },
     {
         name: "koffing", 
-        type: ""
+        type: "poison"
     },
     {
         name: "weezing", 
-        type: ""
+        type: "poison"
     },
     {
         name: "rhyhorn", 
-        type: ""
+        type: "ground"
+    },
+    {
+        name: "rhyhorn", 
+        type: "rock"
     },
     {
         name: "rhydon", 
-        type: ""
+        type: "ground"
+    },
+    {
+        name: "rhydon", 
+        type: "rock"
     },
     {
         name: "chansey", 
-        type: ""
+        type: "normal"
     },
     {
         name: "tangela", 
-        type: ""
+        type: "grass"
     },
     {
         name: "kangaskhan", 
-        type: ""
+        type: "normal"
     },
     {
         name: "horsea", 
-        type: ""
+        type: "water"
     },
     {
         name: "seadra", 
-        type: ""
+        type: "water"
     },
     {
         name: "goldeen", 
-        type: ""
+        type: "water"
     },
     {
         name: "seaking", 
-        type: ""
+        type: "water"
     },
     {
         name: "staryu", 
-        type: ""
+        type: "water"
     },
     {
         name: "starmie", 
-        type: ""
+        type: "water"
+    },
+    {
+        name: "starmie", 
+        type: "psychic"
     },
     {
         name: "mr. mime", 
-        type: ""
+        type: "psychic"
+    },
+    {
+        name: "mr. mime", 
+        type: "fairy"
     },
     {
         name: "scyther", 
-        type: ""
+        type: "bug"
+    },
+    {
+        name: "scyther", 
+        type: "flying"
     },
     {
         name: "jynx", 
-        type: ""
+        type: "ice"
+    },
+    {
+        name: "jynx", 
+        type: "psychic"
     },
     {
         name: "electabuzz", 
-        type: ""
+        type: "electric"
     },
     {
         name: "magmar", 
-        type: ""
+        type: "fire"
     },
     {
         name: "pinsir", 
-        type: ""
+        type: "bug"
     },
     {
         name: "tauros", 
-        type: ""
+        type: "normal"
     },
     {
         name: "magikarp", 
-        type: ""
+        type: "water"
     },
     {
         name: "gyarados", 
-        type: ""
+        type: "water"
+    },
+    {
+        name: "gyarados", 
+        type: "flying"
     },
     {
         name: "lapras", 
-        type: ""
+        type: "water"
+    },
+    {
+        name: "lapras", 
+        type: "ice"
     },
     {
         name: "ditto", 
-        type: ""
+        type: "normal"
     },
     {
         name: "eevee", 
-        type: ""
+        type: "normal"
     },
     {
         name: "vaporeon", 
-        type: ""
+        type: "water"
     },
     {
         name: "jolteon", 
-        type: ""
+        type: "electric"
     },
     {
         name: "flareon", 
-        type: ""
+        type: "fire"
     },
     {
         name: "porygon", 
-        type: ""
+        type: "normal"
     },
     {
         name: "omanyte", 
-        type: ""
+        type: "rock"
+    },
+    {
+        name: "omanyte", 
+        type: "water"
     },
     {
         name: "omastar", 
-        type: ""
+        type: "rock"
+    },
+    {
+        name: "omastar", 
+        type: "water"
     },
     {
         name: "kabuto", 
-        type: ""
+        type: "rock"
+    },
+    {
+        name: "kabuto", 
+        type: "water"
     },
     {
         name: "kabutops", 
-        type: ""
+        type: "rock"
+    },
+    {
+        name: "kabutops", 
+        type: "water"
     },
     {
         name: "aerodactyl", 
-        type: ""
+        type: "rock"
+    },
+    {
+        name: "aerodactyl", 
+        type: "flying"
     },
     {
         name: "snorlax", 
-        type: ""
+        type: "normal"
     },
     {
         name: "articuno", 
-        type: ""
+        type: "ice"
+    },
+    {
+        name: "articuno", 
+        type: "flying"
     },
     {
         name: "zapdos", 
-        type: ""
+        type: "electric"
+    },
+    {
+        name: "zapdos", 
+        type: "flying"
     },
     {
         name: "moltres", 
-        type: ""
+        type: "fire"
+    },
+    {
+        name: "moltres", 
+        type: "flying"
     },
     {
         name: "dratini", 
-        type: ""
+        type: "dragon"
     },
     {
         name: "dragonair", 
-        type: ""
+        type: "dragon"
     },
     {
         name: "dragonite", 
-        type: ""
+        type: "dragon"
+    },
+    {
+        name: "dragonite", 
+        type: "flying"
     },
     {
         name: "mewtwo", 
-        type: ""
+        type: "psychic"
     },
     {
         name: "mew", 
-        type: ""
+        type: "psychic"
     },
     //generation 2
     {
         name: "chikorita", 
-        type: ""
+        type: "grass"
     },
     {
         name: "bayleaf", 
-        type: ""
+        type: "grass"
     },
     {
         name: "meganium", 
-        type: ""
+        type: "grass"
     },
     {
         name: "cyndaquil", 
-        type: ""
+        type: "fire"
     },
     {
         name: "quilava", 
-        type: ""
+        type: "fire"
     },
     {
         name: "typhlosion", 
-        type: ""
+        type: "fire"
     },
     {
         name: "totodile", 
-        type: ""
+        type: "water"
     },
     {
         name: "croconaw", 
-        type: ""
+        type: "water"
     },
     {
         name: "feraligator", 
-        type: ""
+        type: "water"
     },
     {
         name: "sentret", 
-        type: ""
+        type: "normal"
     },
     {
         name: "furret", 
-        type: ""
+        type: "normal"
     },
     {
         name: "hoothoot", 
-        type: ""
+        type: "normal"
+    },
+    {
+        name: "hoothoot", 
+        type: "flying"
     },
     {
         name: "noctowl", 
-        type: ""
+        type: "normal"
+    },
+    {
+        name: "noctowl", 
+        type: "flyingl"
     },
     {
         name: "ledyba", 

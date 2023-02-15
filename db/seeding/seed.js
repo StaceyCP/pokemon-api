@@ -31,9 +31,14 @@ const seed = ({generations, types}) => {
             return db.query(`CREATE TABLE pokemon (
                 id SERIAL PRIMARY KEY,
                 name VARCHAR(200),
-                types VARCHAR(150)[],
                 spriteURL TEXT,
                 generation VARCHAR(10) REFERENCES generations(generation)
+            );`)
+        })
+        .then(() => {
+            return db.query(`CREATE TABLE pokemon-types (
+                name VARCHAR(200) REFERENCES pokemon(name),
+                type VARCHAR(10) REFERENCES types(type)
             );`)
         })
         .then(() => {
@@ -41,12 +46,10 @@ const seed = ({generations, types}) => {
                 id SERIAL PRIMARY KEY,
                 name VARCHAR(200),
                 description TEXT,
-                pokemon VARCHAR(200)[],
                 generation VARCHAR(10) REFERENCES generations(generation)
             );`)
         })
         .then(() => {
-
             const generationsInsertStr = format(`INSERT INTO generations (generation, newPokemon, totalPokemon) 
             VALUES %L RETURNING *;`, generations.map(({generation, newPokemon, totalPokemon}) => {
                 return [generation, newPokemon, totalPokemon]
