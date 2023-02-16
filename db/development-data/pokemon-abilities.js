@@ -31,36 +31,66 @@ module.exports = [
     },
     {
         name: "charmander", 
-        ability: "",
+        ability: "blaze",
+        hidden: false
+    },
+    {
+        name: "charmander", 
+        ability: "solar power",
+        hidden: true
+    },
+    {
+        name: "charmeleon", 
+        ability: "blaze",
         hidden: false
     },
     {
         name: "charmeleon", 
-        ability: "",
+        ability: "solar power",
+        hidden: true
+    },
+    {
+        name: "charizard", 
+        ability: "blaze",
         hidden: false
     },
     {
         name: "charizard", 
-        ability: "",
-        hidden: false
+        ability: "solar power",
+        hidden: true
     },
     {
-        name: "charizard", 
-        ability: "",
+        name: "squirtle", 
+        ability: "torrent",
         hidden: false
     },
     {
         name: "squirtle", 
-        ability: "",
+        ability: "rain dish",
+        hidden: true
+    },
+    {
+        name: "wartortle", 
+        ability: "torrent",
         hidden: false
     },
     {
         name: "wartortle", 
-        ability: "",
+        ability: "rain dish",
+        hidden: true
+    },
+    {
+        name: "blastoise", 
+        ability: "torrent",
         hidden: false
     },
     {
         name: "blastoise", 
+        ability: "rain dish",
+        hidden: true
+    },
+    {
+        name: "caterpie", 
         ability: "",
         hidden: false
     },
@@ -71,7 +101,7 @@ module.exports = [
     },
     {
         name: "metapod", 
-        ability: "",
+        ability: "shed skin",
         hidden: false
     },
     {
@@ -96,12 +126,7 @@ module.exports = [
     },
     {
         name: "kakuna", 
-        ability: "",
-        hidden: false
-    },
-    {
-        name: "kakuna", 
-        ability: "",
+        ability: "shed skin",
         hidden: false
     },
     {
@@ -1132,33 +1157,63 @@ module.exports = [
     },
     {
         name: "cyndaquil", 
-        ability: "",
+        ability: "blaze",
+        hidden: false
+    },
+    {
+        name: "cyndaquil", 
+        ability: "flash fire",
+        hidden: true
+    },
+    {
+        name: "quilava", 
+        ability: "blaze",
         hidden: false
     },
     {
         name: "quilava", 
-        ability: "",
+        ability: "flash fire",
+        hidden: true
+    },
+    {
+        name: "typhlosion", 
+        ability: "blaze",
         hidden: false
     },
     {
         name: "typhlosion", 
-        ability: "",
+        ability: "flash fire",
+        hidden: true
+    },
+    {
+        name: "totodile", 
+        ability: "torrent",
         hidden: false
     },
     {
         name: "totodile", 
-        ability: "",
+        ability: "sheer force",
+        hidden: true
+    },
+    {
+        name: "croconaw", 
+        ability: "torrent",
         hidden: false
     },
     {
         name: "croconaw", 
-        ability: "",
+        ability: "sheer force",
+        hidden: true
+    },
+    {
+        name: "feraligator", 
+        ability: "torrent",
         hidden: false
     },
     {
         name: "feraligator", 
-        ability: "",
-        hidden: false
+        ability: "sheer force",
+        hidden: true
     },
     {
         name: "sentret", 
