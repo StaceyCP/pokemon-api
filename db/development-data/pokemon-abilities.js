@@ -91,13 +91,13 @@ module.exports = [
     },
     {
         name: "caterpie", 
-        ability: "",
+        ability: "shield dust",
         hidden: false
     },
     {
         name: "caterpie", 
-        ability: "",
-        hidden: false
+        ability: "run away",
+        hidden: true
     },
     {
         name: "metapod", 
@@ -106,23 +106,23 @@ module.exports = [
     },
     {
         name: "butterfree", 
-        ability: "",
+        ability: "compound eyes",
         hidden: false
     },
     {
         name: "butterfree", 
-        ability: "",
+        ability: "tinted lens",
+        hidden: true
+    },
+    {
+        name: "weedle", 
+        ability: "shield dust",
         hidden: false
     },
     {
         name: "weedle", 
-        ability: "",
-        hidden: false
-    },
-    {
-        name: "weedle", 
-        ability: "",
-        hidden: false
+        ability: "run away",
+        hidden: true
     },
     {
         name: "kakuna", 
@@ -131,203 +131,368 @@ module.exports = [
     },
     {
         name: "beedrill", 
-        ability: "",
+        ability: "swarm",
         hidden: false
     },
     {
         name: "beedrill", 
-        ability: "",
+        ability: "sniper",
+        hidden: true
+    },
+    {
+        name: "pidgey", 
+        ability: "keen eye",
         hidden: false
     },
     {
         name: "pidgey", 
-        ability: "",
+        ability: "tangled feet",
         hidden: false
     },
     {
         name: "pidgey", 
-        ability: "",
+        ability: "big pecks",
+        hidden: true
+    },
+    {
+        name: "pidgeotto", 
+        ability: "keen eye",
         hidden: false
     },
     {
         name: "pidgeotto", 
-        ability: "",
+        ability: "tangled feet",
         hidden: false
     },
     {
         name: "pidgeotto", 
-        ability: "",
+        ability: "big pecks",
+        hidden: true
+    },
+    {
+        name: "pidgeot", 
+        ability: "keen eye",
         hidden: false
     },
     {
         name: "pidgeot", 
-        ability: "",
+        ability: "tangled feet",
         hidden: false
     },
     {
         name: "pidgeot", 
-        ability: "",
+        ability: "big pecks",
+        hidden: true
+    },
+    {
+        name: "ratata", 
+        ability: "run away",
         hidden: false
     },
     {
         name: "ratata", 
-        ability: "",
+        ability: "guts",
+        hidden: false
+    },
+    {
+        name: "ratata", 
+        ability: "hustle",
+        hidden: true
+    },
+    {
+        name: "raticate", 
+        ability: "run away",
         hidden: false
     },
     {
         name: "raticate", 
-        ability: "",
+        ability: "guts",
+        hidden: false
+    },
+    {
+        name: "raticate", 
+        ability: "hustle",
+        hidden: true
+    },
+    {
+        name: "spearow", 
+        ability: "keen eye",
         hidden: false
     },
     {
         name: "spearow", 
-        ability: "",
-        hidden: false
+        ability: "sniper",
+        hidden: true
     },
     {
-        name: "spearow", 
-        ability: "",
+        name: "fearow", 
+        ability: "keen eye",
         hidden: false
     },
     {
         name: "fearow", 
-        ability: "",
-        hidden: false
+        ability: "sniper",
+        hidden: true
     },
     {
-        name: "fearow", 
-        ability: "",
+        name: "ekans", 
+        ability: "intimidate",
         hidden: false
     },
     {
         name: "ekans", 
-        ability: "",
+        ability: "shed skin",
+        hidden: false
+    },
+    {
+        name: "ekans", 
+        ability: "unnerve",
+        hidden: true
+    },
+    {
+        name: "arbok", 
+        ability: "intimidate",
         hidden: false
     },
     {
         name: "arbok", 
-        ability: "",
+        ability: "shed skin",
+        hidden: false
+    },
+    {
+        name: "arbok", 
+        ability: "unnerve",
+        hidden: true
+    },
+    {
+        name: "pikachu", 
+        ability: "static",
         hidden: false
     },
     {
         name: "pikachu", 
-        ability: "",
+        ability: "lightning rod",
+        hidden: true
+    },
+    {
+        name: "raichu", 
+        ability: "static",
         hidden: false
     },
     {
         name: "raichu", 
-        ability: "",
+        ability: "lightning rod",
+        hidden: true
+    },
+    {
+        name: "sandshrew", 
+        ability: "sand veil",
         hidden: false
     },
     {
         name: "sandshrew", 
-        ability: "",
+        ability: "sand rush",
+        hidden: true
+    },
+    {
+        name: "sandslash", 
+        ability: "sand veil",
         hidden: false
     },
     {
         name: "sandslash", 
-        ability: "",
+        ability: "sand rush",
+        hidden: true
+    },
+    {
+        name: "nidoran-f", 
+        ability: "poison point",
         hidden: false
     },
     {
         name: "nidoran-f", 
-        ability: "",
+        ability: "rivalry",
+        hidden: false
+    },
+    {
+        name: "nidoran-f", 
+        ability: "hustle",
+        hidden: true
+    },
+    {
+        name: "nidorina", 
+        ability: "poison point",
         hidden: false
     },
     {
         name: "nidorina", 
-        ability: "",
+        ability: "rivalry",
+        hidden: false
+    },
+    {
+        name: "nidorina", 
+        ability: "hustle",
+        hidden: true
+    },
+    {
+        name: "nidoqueen", 
+        ability: "poison point",
         hidden: false
     },
     {
         name: "nidoqueen", 
-        ability: "",
+        ability: "rivalry",
         hidden: false
     },
     {
         name: "nidoqueen", 
-        ability: "",
+        ability: "sheer force",
+        hidden: true
+    },
+    {
+        name: "nidoran-m", 
+        ability: "poison point",
         hidden: false
     },
     {
         name: "nidoran-m", 
-        ability: "",
+        ability: "rivalry",
+        hidden: false
+    },
+    {
+        name: "nidoran-m", 
+        ability: "hustle",
+        hidden: true
+    },
+    {
+        name: "nidorino", 
+        ability: "poison point",
         hidden: false
     },
     {
         name: "nidorino", 
-        ability: "",
+        ability: "rivalry",
+        hidden: false
+    },
+    {
+        name: "nidorino", 
+        ability: "hustle",
+        hidden: true
+    },
+    {
+        name: "nidoking", 
+        ability: "poison point",
         hidden: false
     },
     {
         name: "nidoking", 
-        ability: "",
+        ability: "rivalry",
         hidden: false
     },
     {
         name: "nidoking", 
-        ability: "",
+        ability: "sheer force",
+        hidden: true
+    },
+    {
+        name: "clefairy", 
+        ability: "cute charm",
         hidden: false
     },
     {
         name: "clefairy", 
-        ability: "",
+        ability: "magic guard",
+        hidden: false
+    },
+    {
+        name: "clefairy", 
+        ability: "friend guard",
+        hidden: true
+    },
+    {
+        name: "clefable", 
+        ability: "cute charm",
         hidden: false
     },
     {
         name: "clefable", 
-        ability: "",
+        ability: "magic guard",
+        hidden: false
+    },
+    {
+        name: "clefable", 
+        ability: "friend guard",
+        hidden: true
+    },
+    {
+        name: "vulpix", 
+        ability: "flash fire",
         hidden: false
     },
     {
         name: "vulpix", 
-        ability: "",
+        ability: "drought",
+        hidden: true
+    },
+    {
+        name: "ninetails", 
+        ability: "flash fire",
         hidden: false
     },
     {
         name: "ninetails", 
-        ability: "",
+        ability: "drought",
+        hidden: true
+    },
+    {
+        name: "jigglypuff", 
+        ability: "cute charm",
         hidden: false
     },
     {
         name: "jigglypuff", 
-        ability: "",
+        ability: "competitive",
         hidden: false
     },
     {
         name: "jigglypuff", 
-        ability: "",
+        ability: "friend guard",
+        hidden: true
+    },
+    {
+        name: "wigglytuff", 
+        ability: "cute charm",
         hidden: false
     },
     {
         name: "wigglytuff", 
-        ability: "",
+        ability: "competitive",
         hidden: false
     },
     {
         name: "wigglytuff", 
-        ability: "",
+        ability: "frisk",
+        hidden: true
+    },
+    {
+        name: "zubat", 
+        ability: "inner focus",
         hidden: false
     },
     {
         name: "zubat", 
-        ability: "",
-        hidden: false
+        ability: "infiltrator",
+        hidden: true
     },
     {
-        name: "zubat", 
-        ability: "",
+        name: "golbat", 
+        ability: "inner focus",
         hidden: false
     },
     {
         name: "golbat", 
-        ability: "",
-        hidden: false
-    },
-    {
-        name: "golbat", 
-        ability: "",
-        hidden: false
+        ability: "infiltrator",
+        hidden: true
     },
     {
         name: "oddish", 
@@ -336,8 +501,8 @@ module.exports = [
     },
     {
         name: "oddish", 
-        ability: "",
-        hidden: false
+        ability: "run away",
+        hidden: true
     },
     {
         name: "gloom", 
@@ -346,8 +511,8 @@ module.exports = [
     },
     {
         name: "gloom", 
-        ability: "",
-        hidden: false
+        ability: "stench",
+        hidden: true
     },
     {
         name: "vileplume", 
@@ -356,38 +521,53 @@ module.exports = [
     },
     {
         name: "vileplume", 
-        ability: "",
+        ability: "effect spore",
+        hidden: true
+    },
+    {
+        name: "paras", 
+        ability: "effect spore",
         hidden: false
     },
     {
         name: "paras", 
-        ability: "",
+        ability: "dry skin",
         hidden: false
     },
     {
         name: "paras", 
-        ability: "",
+        ability: "damp",
+        hidden: true
+    },
+    {
+        name: "parasect", 
+        ability: "effect spore",
         hidden: false
     },
     {
         name: "parasect", 
-        ability: "",
+        ability: "dry skin",
         hidden: false
     },
     {
         name: "parasect", 
-        ability: "",
+        ability: "damp",
+        hidden: true
+    },
+    {
+        name: "venonat", 
+        ability: "compound eyes",
         hidden: false
     },
     {
         name: "venonat", 
-        ability: "",
+        ability: "tinted lens",
         hidden: false
     },
     {
         name: "venonat", 
-        ability: "",
-        hidden: false
+        ability: "run away",
+        hidden: true
     },
     {
         name: "venomoth", 
@@ -1317,23 +1497,43 @@ module.exports = [
     },
     {
         name: "pichu", 
-        ability: "",
+        ability: "static",
+        hidden: false
+    },
+    {
+        name: "pichu", 
+        ability: "lightning rod",
+        hidden: true
+    },
+    {
+        name: "cleffa", 
+        ability: "cute charm",
         hidden: false
     },
     {
         name: "cleffa", 
-        ability: "",
+        ability: "magic guard",
         hidden: false
     },
     {
-        name: "igglybuff", 
-        ability: "",
+        name: "cleffa", 
+        ability: "friend guard",
+        hidden: true
+    },
+    {
+        name: "jigglypuff", 
+        ability: "cute charm",
         hidden: false
     },
     {
-        name: "igglybuff", 
-        ability: "",
+        name: "jigglypuff", 
+        ability: "competitive",
         hidden: false
+    },
+    {
+        name: "jigglypuff", 
+        ability: "friend guard",
+        hidden: true
     },
     {
         name: "togepi", 
