@@ -851,7 +851,7 @@ module.exports = [
         genaration: "II",
     },
     {
-        name: "lantern",
+        name: "lanturn",
         spriteURL: "", 
         genaration: "II",
     },
@@ -1161,7 +1161,7 @@ module.exports = [
         genaration: "II",
     },
     {
-        name: "porygon 2",
+        name: "porygon2",
         spriteURL: "", 
         genaration: "II",
     },
@@ -1201,7 +1201,7 @@ module.exports = [
         genaration: "II",
     },
     {
-        name: "miltankr",
+        name: "miltank",
         spriteURL: "", 
         genaration: "II",
     },

@@ -135,7 +135,7 @@ module.exports = [
         generation: "III",
     },
     {
-        name: "synchronise",
+        name: "synchronize",
         description: "If the Pokémon is burned, paralyzed, or poisoned by another Pokémon, that Pokémon will be inflicted with the same status condition.",
         generation: "III",
     },
@@ -710,7 +710,7 @@ module.exports = [
         generation: "V",
     },
     {
-        name: "poisont touch",
+        name: "poison touch",
         description: "May poison a target when the Pokémon makes contact.",
         generation: "V",
     },
@@ -730,7 +730,7 @@ module.exports = [
         generation: "V",
     },
     {
-        name: "wonderskin",
+        name: "wonder skin",
         description: "Makes status moves more likely to miss the Pokémon",
         generation: "V",
     },
@@ -855,7 +855,7 @@ module.exports = [
         generation: "VI",
     },
     {
-        name: "competetive",
+        name: "competitive",
         description: "Boosts the Pokémon's Sp. Atk stat sharply when its stats are lowered by an opposing Pokémon.",
         generation: "VI",
     },

@@ -981,11 +981,11 @@ module.exports = [
         type: "electric"
     },
     {
-        name: "lantern", 
+        name: "lanturn", 
         type: "water"
     },
     {
-        name: "lantern", 
+        name: "lanturn", 
         type: "electric"
     },
     {
@@ -1365,7 +1365,7 @@ module.exports = [
         type: "ground"
     },
     {
-        name: "porygon 2", 
+        name: "porygon2", 
         type: "normal"
     },
     {
@@ -1401,7 +1401,7 @@ module.exports = [
         type: "fire"
     },
     {
-        name: "miltankr", 
+        name: "miltank", 
         type: "normal"
     },
     {

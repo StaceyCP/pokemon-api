@@ -1,9 +1,15 @@
 const db = require("../connection")
 const format = require('pg-format')
 
-const seed = ({generations, types}) => {
+const seed = ({generations, types, pokemon, pokemonTypes, abilities, pokemonAbilities}) => {
     return db
-        .query('DROP TABLE IF EXISTS abilities;')
+        .query('DROP TABLE IF EXISTS pokemon_abilities;')
+        .then(() => {
+            return db.query('DROP TABLE IF EXISTS abilities;')
+        })
+        .then(() => {
+            return db.query('DROP TABLE IF EXISTS pokemon_types;')
+        })
         .then(() => {
             return db.query('DROP TABLE IF EXISTS pokemon;')
         })
@@ -30,13 +36,14 @@ const seed = ({generations, types}) => {
         .then(() => {
             return db.query(`CREATE TABLE pokemon (
                 id SERIAL PRIMARY KEY,
-                name VARCHAR(200),
+                name VARCHAR(200) UNIQUE,
                 spriteURL TEXT,
                 generation VARCHAR(10) REFERENCES generations(generation)
             );`)
         })
         .then(() => {
-            return db.query(`CREATE TABLE pokemon-types (
+            return db.query(`CREATE TABLE pokemon_types (
+                id SERIAL PRIMARY KEY,
                 name VARCHAR(200) REFERENCES pokemon(name),
                 type VARCHAR(10) REFERENCES types(type)
             );`)
@@ -44,9 +51,17 @@ const seed = ({generations, types}) => {
         .then(() => {
             return db.query(`CREATE TABLE abilities (
                 id SERIAL PRIMARY KEY,
-                name VARCHAR(200),
+                name VARCHAR(200) UNIQUE,
                 description TEXT,
                 generation VARCHAR(10) REFERENCES generations(generation)
+            );`)
+        })
+        .then(() => {
+            return db.query(`CREATE TABLE pokemon_abilities (
+                id SERIAL PRIMARY KEY,
+                name VARCHAR(200) REFERENCES pokemon(name),
+                ability varchar(200) REFERENCES abilities(name),
+                hidden BOOLEAN
             );`)
         })
         .then(() => {
@@ -62,6 +77,34 @@ const seed = ({generations, types}) => {
                 return [type, generation, description]
             }))
             return db.query(typesInsertStr);
+        })
+        .then(() => {
+            const pokemonInsertStr = format(`INSERT INTO pokemon (name, spriteURL, generation)
+            VALUES %L RETURNING *;`, pokemon.map(({name, spriteURL, generation}) => {
+                return [name, spriteURL, generation]
+            }))
+            return db.query(pokemonInsertStr);
+        })
+        .then(() => {
+            const pokemon_typesInsertStr = format(`INSERT INTO pokemon_types (name, type)
+            VALUES %L RETURNING *;`, pokemonTypes.map(({name, type}) => {
+                return [name, type]
+            }))
+            return db.query(pokemon_typesInsertStr);
+        })
+        .then(() => {
+            const abilitiesInsertstr = format(`INSERT INTO abilities (name, description, generation)
+            VALUES %L RETURNING *;`, abilities.map(({name, description, generation}) => {
+                return [name, description, generation]
+            }))
+            return db.query(abilitiesInsertstr);
+        })
+        .then(() => {
+            const pokemon_abilitiesInsertStr = format(`INSERT INTO pokemon_abilities (name, ability, hidden)
+            VALUES %L RETURNING *;`, pokemonAbilities.map(({name, ability, hidden}) => {
+                return [name, ability, hidden]
+            }))
+            return db.query(pokemon_abilitiesInsertStr)
         })
 }
 
