@@ -7,4 +7,4 @@ app.use("/api", apiRouter);
 
 app.use(handleServerErrors);
 
-module.exports = app;
+module.exports = { app };
