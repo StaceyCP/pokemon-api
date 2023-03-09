@@ -6,3 +6,10 @@ exports.fetchPokemon = () => {
     return response.rows;
   });
 };
+
+exports.fetchAbilities = () => {
+  const getAbilitiesQueryStr = `SELECT * FROM abilities;`;
+  return db.query(getAbilitiesQueryStr).then((response) => {
+    return response.rows;
+  });
+};
