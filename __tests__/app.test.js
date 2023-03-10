@@ -14,7 +14,7 @@ afterAll(() => {
 });
 
 describe("Pokedex endpoints", () => {
-  describe("Get all pokemon", () => {
+  describe("Pokemon", () => {
     test("Responds with a status code of 200", () => {
       return request(app).get("/api/pokemon").expect(200);
     });
@@ -35,7 +35,7 @@ describe("Pokedex endpoints", () => {
     });
   });
 
-  describe("Get all Abilities", () => {
+  describe("Abilities", () => {
     test("Responds with a status code of 200", () => {
       return request(app).get("/api/abilities").expect(200);
     });
@@ -56,7 +56,7 @@ describe("Pokedex endpoints", () => {
     });
   });
 
-  describe("Get all Generations", () => {
+  describe("Generations", () => {
     test("should return a 200 status code", () => {
       return request(app).get("/api/generations").expect(200);
     });
@@ -71,6 +71,26 @@ describe("Pokedex endpoints", () => {
             expect(generation).toHaveProperty("generation");
             expect(generation).toHaveProperty("new_pokemon");
             expect(generation).toHaveProperty("total_pokemon");
+          });
+        });
+    });
+  });
+
+  describe("Types", () => {
+    test("should return a 200 status code", () => {
+      return request(app).get("/api/types").expect(200);
+    });
+    test("should return an array containing all the pokemon types", () => {
+      return request(app)
+        .get("/api/types")
+        .expect(200)
+        .then((res) => {
+          const types = res._body.types;
+          expect(types.length).toBe(18);
+          types.map((type) => {
+            expect(type).toHaveProperty("type");
+            expect(type).toHaveProperty("description");
+            expect(type).toHaveProperty("generation");
           });
         });
     });

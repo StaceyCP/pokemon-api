@@ -20,3 +20,10 @@ exports.fetchGenerations = () => {
     return response.rows;
   });
 };
+
+exports.fetchTypes = () => {
+  const getTypesQueryStr = `SELECT * FROM types;`;
+  return db.query(getTypesQueryStr).then((response) => {
+    return response.rows;
+  });
+};

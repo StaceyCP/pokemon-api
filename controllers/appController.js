@@ -2,6 +2,7 @@ const {
   fetchPokemon,
   fetchAbilities,
   fetchGenerations,
+  fetchTypes,
 } = require("../models/appModel");
 
 exports.getPokemon = (req, res, next) => {
@@ -28,6 +29,16 @@ exports.getGenerations = (req, res, next) => {
   fetchGenerations()
     .then((generations) => {
       res.status(200).send({ generations });
+    })
+    .catch((err) => {
+      next(err);
+    });
+};
+
+exports.getTypes = (req, res, next) => {
+  fetchTypes()
+    .then((types) => {
+      res.status(200).send({ types });
     })
     .catch((err) => {
       next(err);
