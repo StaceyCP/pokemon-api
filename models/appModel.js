@@ -13,3 +13,10 @@ exports.fetchAbilities = () => {
     return response.rows;
   });
 };
+
+exports.fetchGenerations = () => {
+  const getGenerationsQueryStr = `SELECT * FROM generations;`;
+  return db.query(getGenerationsQueryStr).then((response) => {
+    return response.rows;
+  });
+};

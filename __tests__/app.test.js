@@ -55,4 +55,24 @@ describe("Pokedex endpoints", () => {
         });
     });
   });
+
+  describe("Get all Generations", () => {
+    test("should return a 200 status code", () => {
+      return request(app).get("/api/generations").expect(200);
+    });
+    test("should return an array containing the pokemon generations data", () => {
+      return request(app)
+        .get("/api/generations")
+        .expect(200)
+        .then((res) => {
+          const generations = res._body.generations;
+          expect(generations.length).toBe(9);
+          generations.map((generation) => {
+            expect(generation).toHaveProperty("generation");
+            expect(generation).toHaveProperty("new_pokemon");
+            expect(generation).toHaveProperty("total_pokemon");
+          });
+        });
+    });
+  });
 });
