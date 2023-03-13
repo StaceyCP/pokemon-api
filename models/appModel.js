@@ -7,6 +7,23 @@ exports.fetchPokemon = () => {
   });
 };
 
+exports.fetchSinglePokemon = (identifier) => {
+  let getSinglePokemonStr;
+  if (isNaN(identifier)) {
+    getSinglePokemonStr = `SELECT * FROM pokemon 
+    WHERE name = $1`;
+  } else {
+    getSinglePokemonStr = `SELECT * FROM pokemon 
+    WHERE id = $1`;
+  }
+  return db.query(getSinglePokemonStr, [identifier]).then((response) => {
+    if (response.rows.length === 0) {
+      return Promise.reject({ status: 404, message: "Pokemon not found :(" });
+    }
+    return response.rows[0];
+  });
+};
+
 exports.fetchAbilities = () => {
   const getAbilitiesQueryStr = `SELECT * FROM abilities;`;
   return db.query(getAbilitiesQueryStr).then((response) => {

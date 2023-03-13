@@ -33,6 +33,50 @@ describe("Pokedex endpoints", () => {
           });
         });
     });
+    test("Get request accepts a pokemon name as a query and returns the correct pokemon", () => {
+      return request(app)
+        .get("/api/pokemon/bulbasaur")
+        .expect(200)
+        .then((response) => {
+          const returnedPokemon = response._body.pokemon;
+          expect(returnedPokemon.name).toBe("bulbasaur");
+          expect(returnedPokemon.id).toBe(1);
+          expect(returnedPokemon.spriteurl).toBe(
+            "https://img.pokemondb.net/sprites/black-white/normal/bulbasaur.png"
+          );
+          expect(returnedPokemon.generation).toBe("I");
+        });
+    });
+    test('Responds with a 404 error "Pokemon not found" when sent a name that does not currently exist within the database', () => {
+      return request(app)
+        .get("/api/pokemon/ekans")
+        .expect(404)
+        .then((response) => {
+          expect(response._body.message).toBe("Pokemon not found :(");
+        });
+    });
+    test("Get request accepts a pokemon id as a query and returns the correct pokemon", () => {
+      return request(app)
+        .get("/api/pokemon/1")
+        .expect(200)
+        .then((response) => {
+          const returnedPokemon = response._body.pokemon;
+          expect(returnedPokemon.name).toBe("bulbasaur");
+          expect(returnedPokemon.id).toBe(1);
+          expect(returnedPokemon.spriteurl).toBe(
+            "https://img.pokemondb.net/sprites/black-white/normal/bulbasaur.png"
+          );
+          expect(returnedPokemon.generation).toBe("I");
+        });
+    });
+    test('Responds with a 404 error "Pokemon not found" when sent an id that does not currently exist within the database', () => {
+      return request(app)
+        .get("/api/pokemon/100")
+        .expect(404)
+        .then((response) => {
+          expect(response._body.message).toBe("Pokemon not found :(");
+        });
+    });
   });
 
   describe("Abilities", () => {

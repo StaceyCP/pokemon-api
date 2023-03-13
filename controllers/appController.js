@@ -1,5 +1,6 @@
 const {
   fetchPokemon,
+  fetchSinglePokemon,
   fetchAbilities,
   fetchGenerations,
   fetchTypes,
@@ -7,6 +8,17 @@ const {
 
 exports.getPokemon = (req, res, next) => {
   fetchPokemon()
+    .then((pokemon) => {
+      res.status(200).send({ pokemon });
+    })
+    .catch((err) => {
+      next(err);
+    });
+};
+
+exports.getSinglePokemon = (req, res, next) => {
+  const { identifier } = req.params;
+  fetchSinglePokemon(identifier)
     .then((pokemon) => {
       res.status(200).send({ pokemon });
     })
