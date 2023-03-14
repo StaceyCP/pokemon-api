@@ -30,6 +30,8 @@ describe("Pokedex endpoints", () => {
             expect(singlePokemon).toHaveProperty("name");
             expect(singlePokemon).toHaveProperty("spriteurl");
             expect(singlePokemon).toHaveProperty("generation");
+            expect(singlePokemon).toHaveProperty("type");
+            expect(Array.isArray(singlePokemon.type)).toBe(true);
           });
         });
     });
@@ -45,6 +47,7 @@ describe("Pokedex endpoints", () => {
             "https://img.pokemondb.net/sprites/black-white/normal/bulbasaur.png"
           );
           expect(returnedPokemon.generation).toBe("I");
+          expect(returnedPokemon.type).toEqual(["grass", "poison"]);
         });
     });
     test('Responds with a 404 error "Pokemon not found" when sent a name that does not currently exist within the database', () => {
@@ -67,6 +70,7 @@ describe("Pokedex endpoints", () => {
             "https://img.pokemondb.net/sprites/black-white/normal/bulbasaur.png"
           );
           expect(returnedPokemon.generation).toBe("I");
+          expect(returnedPokemon.type).toEqual(["grass", "poison"]);
         });
     });
     test('Responds with a 404 error "Pokemon not found" when sent an id that does not currently exist within the database', () => {

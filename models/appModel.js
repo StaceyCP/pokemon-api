@@ -1,7 +1,12 @@
 const db = require("../db/connection");
 
 exports.fetchPokemon = () => {
-  const getPokemonQueryStr = `SELECT * FROM pokemon;`;
+  const getPokemonQueryStr = `SELECT pokemon.*, 
+  ARRAY_AGG (pokemon_types.type) AS type 
+  FROM pokemon 
+  JOIN pokemon_types ON pokemon.name = pokemon_types.name 
+  GROUP BY pokemon.id 
+  ORDER BY pokemon.id ASC;`;
   return db.query(getPokemonQueryStr).then((response) => {
     return response.rows;
   });
@@ -10,11 +15,21 @@ exports.fetchPokemon = () => {
 exports.fetchSinglePokemon = (identifier) => {
   let getSinglePokemonStr;
   if (isNaN(identifier)) {
-    getSinglePokemonStr = `SELECT * FROM pokemon 
-    WHERE name = $1`;
+    getSinglePokemonStr = `SELECT pokemon.*, 
+    ARRAY_AGG (pokemon_types.type) AS type 
+    FROM pokemon 
+    JOIN pokemon_types ON pokemon.name = pokemon_types.name 
+    WHERE pokemon.name = $1
+    GROUP BY pokemon.id 
+    ORDER BY pokemon.id ASC;`;
   } else {
-    getSinglePokemonStr = `SELECT * FROM pokemon 
-    WHERE id = $1`;
+    getSinglePokemonStr = `SELECT pokemon.*, 
+    ARRAY_AGG (pokemon_types.type) AS type 
+    FROM pokemon 
+    JOIN pokemon_types ON pokemon.name = pokemon_types.name 
+    WHERE pokemon.id = $1
+    GROUP BY pokemon.id 
+    ORDER BY pokemon.id ASC;`;
   }
   return db.query(getSinglePokemonStr, [identifier]).then((response) => {
     if (response.rows.length === 0) {
