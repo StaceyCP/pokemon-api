@@ -2,9 +2,11 @@ const db = require("../db/connection");
 
 exports.fetchPokemon = () => {
   const getPokemonQueryStr = `SELECT pokemon.*, 
-  ARRAY_AGG (pokemon_types.type) AS type 
+  ARRAY_AGG (DISTINCT pokemon_types.type) AS type,
+  ARRAY_AGG (DISTINCT pokemon_abilities.ability) AS abilities
   FROM pokemon 
   JOIN pokemon_types ON pokemon.name = pokemon_types.name 
+  JOIN pokemon_abilities ON pokemon.name = pokemon_abilities.name
   GROUP BY pokemon.id;`;
   return db.query(getPokemonQueryStr).then((response) => {
     return response.rows;
@@ -15,16 +17,20 @@ exports.fetchSinglePokemon = (identifier) => {
   let getSinglePokemonStr;
   if (isNaN(identifier)) {
     getSinglePokemonStr = `SELECT pokemon.*, 
-    ARRAY_AGG (pokemon_types.type) AS type 
+    ARRAY_AGG (pokemon_types.type) AS type,
+    ARRAY_AGG (DISTINCT pokemon_abilities.ability) AS abilities
     FROM pokemon 
     JOIN pokemon_types ON pokemon.name = pokemon_types.name 
+    JOIN pokemon_abilities ON pokemon.name = pokemon_abilities.name
     WHERE pokemon.name = $1
     GROUP BY pokemon.id;`;
   } else {
     getSinglePokemonStr = `SELECT pokemon.*, 
-    ARRAY_AGG (pokemon_types.type) AS type 
+    ARRAY_AGG (pokemon_types.type) AS type, 
+    ARRAY_AGG (DISTINCT pokemon_abilities.ability) AS abilities
     FROM pokemon 
     JOIN pokemon_types ON pokemon.name = pokemon_types.name 
+    JOIN pokemon_abilities ON pokemon.name = pokemon_abilities.name
     WHERE pokemon.id = $1
     GROUP BY pokemon.id;`;
   }

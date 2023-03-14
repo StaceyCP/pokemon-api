@@ -31,8 +31,19 @@ describe("Pokedex endpoints", () => {
             expect(singlePokemon).toHaveProperty("spriteurl");
             expect(singlePokemon).toHaveProperty("generation");
             expect(singlePokemon).toHaveProperty("type");
+            expect(singlePokemon).toHaveProperty("abilities");
             expect(Array.isArray(singlePokemon.type)).toBe(true);
+            expect(Array.isArray(singlePokemon.abilities)).toBe(true);
           });
+        });
+    });
+    test("Pokemon should be ordered by id in ascending order", () => {
+      return request(app)
+        .get("/api/pokemon")
+        .expect(200)
+        .then((response) => {
+          const pokemon = response._body.pokemon;
+          expect(pokemon).toBeSortedBy("id");
         });
     });
     test("Get request accepts a pokemon name as a query and returns the correct pokemon", () => {
@@ -48,6 +59,7 @@ describe("Pokedex endpoints", () => {
           );
           expect(returnedPokemon.generation).toBe("I");
           expect(returnedPokemon.type).toEqual(["grass", "poison"]);
+          expect(returnedPokemon.abilities).toEqual(["chlorophyll"]);
         });
     });
     test('Responds with a 404 error "Pokemon not found" when sent a name that does not currently exist within the database', () => {
@@ -71,6 +83,7 @@ describe("Pokedex endpoints", () => {
           );
           expect(returnedPokemon.generation).toBe("I");
           expect(returnedPokemon.type).toEqual(["grass", "poison"]);
+          expect(returnedPokemon.abilities).toEqual(["chlorophyll"]);
         });
     });
     test('Responds with a 404 error "Pokemon not found" when sent an id that does not currently exist within the database', () => {
