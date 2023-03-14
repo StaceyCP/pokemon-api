@@ -5,8 +5,7 @@ exports.fetchPokemon = () => {
   ARRAY_AGG (pokemon_types.type) AS type 
   FROM pokemon 
   JOIN pokemon_types ON pokemon.name = pokemon_types.name 
-  GROUP BY pokemon.id 
-  ORDER BY pokemon.id ASC;`;
+  GROUP BY pokemon.id;`;
   return db.query(getPokemonQueryStr).then((response) => {
     return response.rows;
   });
@@ -20,16 +19,14 @@ exports.fetchSinglePokemon = (identifier) => {
     FROM pokemon 
     JOIN pokemon_types ON pokemon.name = pokemon_types.name 
     WHERE pokemon.name = $1
-    GROUP BY pokemon.id 
-    ORDER BY pokemon.id ASC;`;
+    GROUP BY pokemon.id;`;
   } else {
     getSinglePokemonStr = `SELECT pokemon.*, 
     ARRAY_AGG (pokemon_types.type) AS type 
     FROM pokemon 
     JOIN pokemon_types ON pokemon.name = pokemon_types.name 
     WHERE pokemon.id = $1
-    GROUP BY pokemon.id 
-    ORDER BY pokemon.id ASC;`;
+    GROUP BY pokemon.id;`;
   }
   return db.query(getSinglePokemonStr, [identifier]).then((response) => {
     if (response.rows.length === 0) {
