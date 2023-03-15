@@ -17,7 +17,7 @@ exports.fetchSinglePokemon = (identifier) => {
   let getSinglePokemonStr;
   if (isNaN(identifier)) {
     getSinglePokemonStr = `SELECT pokemon.*, 
-    ARRAY_AGG (pokemon_types.type) AS type,
+    ARRAY_AGG (DISTINCT pokemon_types.type) AS type,
     ARRAY_AGG (DISTINCT pokemon_abilities.ability) AS abilities
     FROM pokemon 
     JOIN pokemon_types ON pokemon.name = pokemon_types.name 
@@ -26,7 +26,7 @@ exports.fetchSinglePokemon = (identifier) => {
     GROUP BY pokemon.id;`;
   } else {
     getSinglePokemonStr = `SELECT pokemon.*, 
-    ARRAY_AGG (pokemon_types.type) AS type, 
+    ARRAY_AGG (DISTINCT pokemon_types.type) AS type, 
     ARRAY_AGG (DISTINCT pokemon_abilities.ability) AS abilities
     FROM pokemon 
     JOIN pokemon_types ON pokemon.name = pokemon_types.name 
