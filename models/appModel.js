@@ -62,3 +62,11 @@ exports.fetchTypes = () => {
     return response.rows;
   });
 };
+
+exports.fetchTypeByName = (typeName) => {
+  const getTypeByNameQueryStr = `SELECT * FROM types WHERE type = $1;`;
+  return db.query(getTypeByNameQueryStr, [typeName]).then((response) => {
+    console.log(response);
+    return response.rows[0];
+  });
+};

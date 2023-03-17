@@ -4,6 +4,7 @@ const {
   fetchAbilities,
   fetchGenerations,
   fetchTypes,
+  fetchTypeByName,
 } = require("../models/appModel");
 
 exports.getPokemon = (req, res, next) => {
@@ -55,4 +56,11 @@ exports.getTypes = (req, res, next) => {
     .catch((err) => {
       next(err);
     });
+};
+
+exports.getTypeByName = (req, res, next) => {
+  const { typeName } = req.params;
+  fetchTypeByName(typeName).then((type) => {
+    res.status(200).send({ type });
+  });
 };
