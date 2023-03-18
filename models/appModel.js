@@ -14,26 +14,21 @@ exports.fetchPokemon = () => {
 };
 
 exports.fetchSinglePokemon = (identifier) => {
-  let getSinglePokemonStr;
+  let getSinglePokemonStr = `SELECT pokemon.*, 
+  ARRAY_AGG (DISTINCT pokemon_types.type) AS type,
+  ARRAY_AGG (DISTINCT pokemon_abilities.ability) AS abilities
+  FROM pokemon 
+  JOIN pokemon_types ON pokemon.name = pokemon_types.name 
+  JOIN pokemon_abilities ON pokemon.name = pokemon_abilities.name`;
+
   if (isNaN(identifier)) {
-    getSinglePokemonStr = `SELECT pokemon.*, 
-    ARRAY_AGG (DISTINCT pokemon_types.type) AS type,
-    ARRAY_AGG (DISTINCT pokemon_abilities.ability) AS abilities
-    FROM pokemon 
-    JOIN pokemon_types ON pokemon.name = pokemon_types.name 
-    JOIN pokemon_abilities ON pokemon.name = pokemon_abilities.name
-    WHERE pokemon.name = $1
-    GROUP BY pokemon.id;`;
+    getSinglePokemonStr += ` WHERE pokemon.name = $1`;
   } else {
-    getSinglePokemonStr = `SELECT pokemon.*, 
-    ARRAY_AGG (DISTINCT pokemon_types.type) AS type, 
-    ARRAY_AGG (DISTINCT pokemon_abilities.ability) AS abilities
-    FROM pokemon 
-    JOIN pokemon_types ON pokemon.name = pokemon_types.name 
-    JOIN pokemon_abilities ON pokemon.name = pokemon_abilities.name
-    WHERE pokemon.id = $1
-    GROUP BY pokemon.id;`;
+    getSinglePokemonStr += ` WHERE pokemon.id = $1`;
   }
+
+  getSinglePokemonStr += ` GROUP BY pokemon.id`;
+
   return db.query(getSinglePokemonStr, [identifier]).then((response) => {
     if (response.rows.length === 0) {
       return Promise.reject({ status: 404, message: "Pokemon not found :(" });
