@@ -152,7 +152,22 @@ describe("Pokedex endpoints", () => {
             expect(type).toHaveProperty("type");
             expect(type).toHaveProperty("description");
             expect(type).toHaveProperty("generation");
+            expect(type).toHaveProperty("pokemon");
           });
+        });
+    });
+    test("GET api/types/grass should return the correct type", () => {
+      return request(app)
+        .get("/api/types/grass")
+        .expect(200)
+        .then((response) => {
+          const type = response._body.type;
+          expect(type.type).toBe("grass");
+          expect(type.description).toBe(
+            "The Grass type is one of the eighteen types, originating in generation 1"
+          );
+          expect(type.generation).toBe("I");
+          expect(type.pokemon).toEqual(["bulbasaur", "ivysaur"]);
         });
     });
   });

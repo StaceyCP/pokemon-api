@@ -57,8 +57,24 @@ exports.fetchGenerations = () => {
 };
 
 exports.fetchTypes = () => {
-  const getTypesQueryStr = `SELECT * FROM types;`;
+  const getTypesQueryStr = `SELECT types .*, 
+  ARRAY_AGG(pokemon_types.name) AS pokemon 
+  FROM types 
+  LEFT JOIN pokemon_types on types.type = pokemon_types.type 
+  GROUP BY types.type;`;
   return db.query(getTypesQueryStr).then((response) => {
     return response.rows;
+  });
+};
+
+exports.fetchTypeByName = (typeName) => {
+  const getTypeByNameQueryStr = `SELECT types .*, 
+  ARRAY_AGG(pokemon_types.name) AS pokemon 
+  FROM types 
+  LEFT JOIN pokemon_types on types.type = pokemon_types.type 
+  WHERE types.type = $1
+  GROUP BY types.type;`;
+  return db.query(getTypeByNameQueryStr, [typeName]).then((response) => {
+    return response.rows[0];
   });
 };
