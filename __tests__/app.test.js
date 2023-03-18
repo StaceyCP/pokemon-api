@@ -152,6 +152,7 @@ describe("Pokedex endpoints", () => {
             expect(type).toHaveProperty("type");
             expect(type).toHaveProperty("description");
             expect(type).toHaveProperty("generation");
+            expect(type).toHaveProperty("pokemon");
           });
         });
     });
@@ -166,6 +167,7 @@ describe("Pokedex endpoints", () => {
             "The Grass type is one of the eighteen types, originating in generation 1"
           );
           expect(type.generation).toBe("I");
+          expect(type.pokemon).toEqual(["bulbasaur", "ivysaur"]);
         });
     });
   });
