@@ -131,6 +131,22 @@ describe("Pokedex endpoints", () => {
           expect(ability.pokemon).toEqual(["bulbasaur", "ivysaur"]);
         });
     });
+    test("should respond with a 404 - not found when passed an id that is not in the database", () => {
+      return request(app)
+        .get("/api/abilities/999")
+        .expect(404)
+        .then((response) => {
+          expect(response._body.message).toBe("Ability not found :(");
+        });
+    });
+    test("should respond with a 400 - not found when passed an id that is not the correct datatype", () => {
+      return request(app)
+        .get("/api/abilities/abc")
+        .expect(400)
+        .then((response) => {
+          expect(response._body.message).toBe("Bad Request :(");
+        });
+    });
   });
 
   describe("Generations", () => {
@@ -184,6 +200,14 @@ describe("Pokedex endpoints", () => {
           );
           expect(type.generation).toBe("I");
           expect(type.pokemon).toEqual(["bulbasaur", "ivysaur"]);
+        });
+    });
+    test("returns a 404 type not found error when passed a type that does not exist in the database", () => {
+      return request(app)
+        .get("/api/types/fighter")
+        .expect(404)
+        .then((response) => {
+          expect(response._body.message).toBe("Type not found :(");
         });
     });
   });

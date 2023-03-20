@@ -56,6 +56,9 @@ exports.fetchAbilityById = (id) => {
   WHERE abilities.id = $1
   GROUP BY abilities.id;`;
   return db.query(getAbilityQueryStr, [id]).then((response) => {
+    if (response.rows.length === 0) {
+      return Promise.reject({ status: 404, message: "Ability not found :(" });
+    }
     return response.rows[0];
   });
 };
@@ -86,6 +89,9 @@ exports.fetchTypeByName = (typeName) => {
   WHERE types.type = $1
   GROUP BY types.type;`;
   return db.query(getTypeByNameQueryStr, [typeName]).then((response) => {
+    if (response.rows.length === 0) {
+      return Promise.reject({ status: 404, message: "Type not found :(" });
+    }
     return response.rows[0];
   });
 };

@@ -41,9 +41,13 @@ exports.getAllAbilities = (req, res, next) => {
 
 exports.getAbilityById = (req, res, next) => {
   const { id } = req.params;
-  fetchAbilityById(id).then((ability) => {
-    res.status(200).send({ ability });
-  });
+  fetchAbilityById(id)
+    .then((ability) => {
+      res.status(200).send({ ability });
+    })
+    .catch((err) => {
+      next(err);
+    });
 };
 
 exports.getGenerations = (req, res, next) => {
@@ -68,7 +72,11 @@ exports.getTypes = (req, res, next) => {
 
 exports.getTypeByName = (req, res, next) => {
   const { typeName } = req.params;
-  fetchTypeByName(typeName).then((type) => {
-    res.status(200).send({ type });
-  });
+  fetchTypeByName(typeName)
+    .then((type) => {
+      res.status(200).send({ type });
+    })
+    .catch((err) => {
+      next(err);
+    });
 };
