@@ -25,6 +25,7 @@ describe("Pokedex endpoints", () => {
         .then((res) => {
           const pokemon = res._body.pokemon;
           expect(pokemon.length).toBe(8);
+          expect(res._body.total).toBe(8);
           pokemon.forEach((singlePokemon) => {
             expect(singlePokemon).toHaveProperty("id");
             expect(singlePokemon).toHaveProperty("name");
@@ -119,6 +120,7 @@ describe("Pokedex endpoints", () => {
         .then((res) => {
           const abilities = res._body.abilities;
           expect(abilities.length).toBe(10);
+          expect(res._body.total).toBe(10);
           abilities.map((ability) => {
             expect(ability).toHaveProperty("name");
             expect(ability).toHaveProperty("id");
@@ -192,6 +194,7 @@ describe("Pokedex endpoints", () => {
         .then((res) => {
           const types = res._body.types;
           expect(types.length).toBe(18);
+          expect(res._body.total).toBe(18);
           types.map((type) => {
             expect(type).toHaveProperty("type");
             expect(type).toHaveProperty("description");
