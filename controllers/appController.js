@@ -12,7 +12,7 @@ exports.getPokemon = (req, res, next) => {
   const { generation } = req.query;
   fetchPokemon(generation)
     .then((pokemon) => {
-      res.status(200).send({ pokemon });
+      res.status(200).send(pokemon);
     })
     .catch((err) => {
       next(err);
@@ -33,7 +33,7 @@ exports.getSinglePokemon = (req, res, next) => {
 exports.getAllAbilities = (req, res, next) => {
   fetchAbilities()
     .then((abilities) => {
-      res.status(200).send({ abilities });
+      res.status(200).send(abilities);
     })
     .catch((err) => {
       next(err);
@@ -64,7 +64,7 @@ exports.getGenerations = (req, res, next) => {
 exports.getTypes = (req, res, next) => {
   fetchTypes()
     .then((types) => {
-      res.status(200).send({ types });
+      res.status(200).send(types);
     })
     .catch((err) => {
       next(err);

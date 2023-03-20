@@ -16,7 +16,7 @@ exports.fetchPokemon = (generation) => {
 
   getPokemonQueryStr += ` GROUP BY pokemon.id`;
   return db.query(getPokemonQueryStr, queries).then((response) => {
-    return response.rows;
+    return { total: response.rowCount, pokemon: response.rows };
   });
 };
 
@@ -51,7 +51,7 @@ exports.fetchAbilities = () => {
   LEFT JOIN pokemon_abilities on abilities.name = pokemon_abilities.ability 
   GROUP BY abilities.id;`;
   return db.query(getAbilitiesQueryStr).then((response) => {
-    return response.rows;
+    return { total: response.rowCount, abilities: response.rows };
   });
 };
 
@@ -84,7 +84,7 @@ exports.fetchTypes = () => {
   LEFT JOIN pokemon_types on types.type = pokemon_types.type 
   GROUP BY types.type;`;
   return db.query(getTypesQueryStr).then((response) => {
-    return response.rows;
+    return { total: response.rowCount, types: response.rows };
   });
 };
 
