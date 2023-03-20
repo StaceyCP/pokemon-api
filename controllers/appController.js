@@ -9,7 +9,8 @@ const {
 } = require("../models/appModel");
 
 exports.getPokemon = (req, res, next) => {
-  fetchPokemon()
+  const { generation } = req.query;
+  fetchPokemon(generation)
     .then((pokemon) => {
       res.status(200).send({ pokemon });
     })

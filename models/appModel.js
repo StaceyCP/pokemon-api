@@ -1,14 +1,21 @@
 const db = require("../db/connection");
 
-exports.fetchPokemon = () => {
-  const getPokemonQueryStr = `SELECT pokemon.*, 
+exports.fetchPokemon = (generation) => {
+  const queries = [];
+  let getPokemonQueryStr = `SELECT pokemon.*, 
   ARRAY_AGG (DISTINCT pokemon_types.type) AS type,
   ARRAY_AGG (DISTINCT pokemon_abilities.ability) AS abilities
   FROM pokemon 
   JOIN pokemon_types ON pokemon.name = pokemon_types.name 
-  JOIN pokemon_abilities ON pokemon.name = pokemon_abilities.name
-  GROUP BY pokemon.id;`;
-  return db.query(getPokemonQueryStr).then((response) => {
+  JOIN pokemon_abilities ON pokemon.name = pokemon_abilities.name`;
+
+  if (generation) {
+    queries.push(generation);
+    getPokemonQueryStr += ` WHERE pokemon.generation = $1`;
+  }
+
+  getPokemonQueryStr += ` GROUP BY pokemon.id`;
+  return db.query(getPokemonQueryStr, queries).then((response) => {
     return response.rows;
   });
 };

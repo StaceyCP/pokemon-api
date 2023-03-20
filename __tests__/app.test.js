@@ -94,6 +94,18 @@ describe("Pokedex endpoints", () => {
           expect(response._body.message).toBe("Pokemon not found :(");
         });
     });
+    test("Accepts a generation query that responds with an array of the pokemon from the given generation", () => {
+      return request(app)
+        .get("/api/pokemon?generation=II")
+        .expect(200)
+        .then((response) => {
+          const pokemon = response._body.pokemon;
+          expect(pokemon.length).toBe(3);
+          pokemon.forEach((poke) => {
+            expect(poke.generation).toBe("II");
+          });
+        });
+    });
   });
 
   describe("Abilities", () => {
