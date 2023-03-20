@@ -112,7 +112,23 @@ describe("Pokedex endpoints", () => {
             expect(ability).toHaveProperty("id");
             expect(ability).toHaveProperty("description");
             expect(ability).toHaveProperty("generation");
+            expect(ability).toHaveProperty("pokemon");
           });
+        });
+    });
+    test("GET /api/abilities/:id responds with the correct ability", () => {
+      return request(app)
+        .get("/api/abilities/6")
+        .expect(200)
+        .then((response) => {
+          const ability = response._body.ability;
+          expect(ability.id).toBe(6);
+          expect(ability.name).toBe("chlorophyll");
+          expect(ability.description).toBe(
+            "Boosts the Pokémon's Speed stat in harsh sunlight."
+          );
+          expect(ability.generation).toBe("III");
+          expect(ability.pokemon).toEqual(["bulbasaur", "ivysaur"]);
         });
     });
   });

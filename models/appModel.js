@@ -38,9 +38,25 @@ exports.fetchSinglePokemon = (identifier) => {
 };
 
 exports.fetchAbilities = () => {
-  const getAbilitiesQueryStr = `SELECT * FROM abilities;`;
+  const getAbilitiesQueryStr = `SELECT abilities .*, 
+  ARRAY_AGG(pokemon_abilities.name) AS pokemon 
+  FROM abilities 
+  LEFT JOIN pokemon_abilities on abilities.name = pokemon_abilities.ability 
+  GROUP BY abilities.id;`;
   return db.query(getAbilitiesQueryStr).then((response) => {
     return response.rows;
+  });
+};
+
+exports.fetchAbilityById = (id) => {
+  const getAbilityQueryStr = `SELECT abilities .*, 
+  ARRAY_AGG(pokemon_abilities.name) AS pokemon 
+  FROM abilities 
+  LEFT JOIN pokemon_abilities on abilities.name = pokemon_abilities.ability 
+  WHERE abilities.id = $1
+  GROUP BY abilities.id;`;
+  return db.query(getAbilityQueryStr, [id]).then((response) => {
+    return response.rows[0];
   });
 };
 

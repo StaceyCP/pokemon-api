@@ -2,6 +2,7 @@ const {
   fetchPokemon,
   fetchSinglePokemon,
   fetchAbilities,
+  fetchAbilityById,
   fetchGenerations,
   fetchTypes,
   fetchTypeByName,
@@ -36,6 +37,13 @@ exports.getAllAbilities = (req, res, next) => {
     .catch((err) => {
       next(err);
     });
+};
+
+exports.getAbilityById = (req, res, next) => {
+  const { id } = req.params;
+  fetchAbilityById(id).then((ability) => {
+    res.status(200).send({ ability });
+  });
 };
 
 exports.getGenerations = (req, res, next) => {
